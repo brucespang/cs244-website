@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>CS244: Advanced Topics in Networking, Spring 2019</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-item"><a href="index.html" class="current">CS244&nbsp;Home</a></div>
+<div class="menu-item"><a href="honorcode.html">Honor&nbsp;Code</a></div>
+<div class="menu-category">Paper Reading</div>
+<div class="menu-item"><a href="timetable.html">Schedule&nbsp;&amp;&nbsp;Papers</a></div>
+<div class="menu-item"><a href="critique.html">Critique&nbsp;Submission</a></div>
+<div class="menu-category">Programming Assignments</div>
+<div class="menu-item"><a href="https://github.com/mininet/mininet/wiki/Introduction-to-Mininet">Introduction&nbsp;to&nbsp;Mininet</a></div>
+<div class="menu-item"><a href="vbsetup.html">VirtualBox&nbsp;Mininet&nbsp;Setup</a></div>
+<div class="menu-item"><a href="pa1.html">Assignment&nbsp;1</a></div>
+<div class="menu-category">Misc</div>
+<div class="menu-item"><a href="http://piazza.com/stanford/spring2019/cs244">Discussion&nbsp;on&nbsp;Piazza</a></div>
+<div class="menu-item"><a href="staff.html">Staff</a></div>
+<div class="menu-item"><a href="https://github.com/yanlisa/reproducibility/wiki/Reproducing-Network-Research">Reproducibility&nbsp;Github</a></div>
+<div class="menu-item"><a href="http://reproducingnetworkresearch.wordpress.com/">Reproducing&nbsp;Network&nbsp;Research</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>CS244: Advanced Topics in Networking, Spring 2019</h1>
+</div>
+<p>Professors: <b>Sachin Katti</b> and <b>Keith Winstein</b></p>
+<p>TA: <b>Bruce Spang</b></p>
+<p>Lectures: <b>Mon, Wed 3:00PM - 4:20PM</b> at <a href="https://campus-map.stanford.edu/?srch=380-380Y">Building 380-380Y</a></p>
+<p>Discussion Sections: Fridays 2:30PM - 3:20PM in <a href="https://campus-map.stanford.edu/?srch=Gates%20computer%20science">Gates B-12</a>. Held only when announced.</p>
+<p>Office Hours:</p>
+<ul>
+<li><p>Keith: TBD</p>
+</li>
+<li><p>Sachin: TBD</p>
+</li>
+<li><p>Bruce: 3-5pm on Tuesdays in Gates 494</p>
+</li>
+</ul>
+<h1>Course Description</h1>
+<p>CS244 is a graduate course in computer networks. Spring 2019 marks the eleventh offering of this class.</p>
+<p>The goals for this class are:</p>
+<ul>
+<li><p>To become familiar with the state of the art in networking research: network architecture, protocols and systems.</p>
+</li>
+<li><p>To gain some practice in reading research papers and critically understanding the research of others.</p>
+</li>
+<li><p>To gain experience with network programming using state-of-the-art research platforms.</p>
+</li>
+</ul>
+<p>In the past two decades, the Internet has grown from a research tool to a fundamental part of society; something we all take for granted and use everyday. In this class we'll explore why the infrastructure was designed this way, and the underlying principles and design decisions. We'll explore the pros and cons of the current design, and give some thought to how we can make the Internet better in future.</p>
+<p><b>Looking for the reproducibility github wiki?</b> Find it <a href="https://github.com/yanlisa/reproducibility/wiki/Reproducing-Network-Research">here</a> or on the sidebar.</p>
+<h1>Announcements</h1>
+<h1>About the Course</h1>
+<h2>Requirements</h2>
+<p>You must have taken CS 144, EE 284 or equivalent. If you have any doubt, ask for permission from Keith or Sachin. This background is essential before taking the class, as we'll read a lot papers quickly without time to catch up on the basics. The course assumes an understanding of topics in networking such as packet-switching, routing (distance vector and shortest path first), socket programming, and congestion control. You need an SUNetID to access the papers and print them.</p>
+<p>If you want to refresh your background, the following textbooks might be useful:</p>
+<ul>
+<li><p>J. Kurose and K. Ross, “Computer Networking: A Top-Down Approach”.</p>
+</li>
+<li><p>L. Peterson and B. Davie, “Computer Networks: A Systems Approach”.</p>
+</li>
+</ul>
+<p>It will be helpful to be able to program in Python.</p>
+<h2>Organization and Workload</h2>
+<p>The course is based on CS240 (Advanced Topics in Operating Systems). The class consists of two main activities:</p>
+<ol>
+<li><p>Papers and discussions: We will read 1-2 papers for each class (i.e. 2-4 papers per week), and discuss them in class. You will need to spend about 2 hours reading each paper, and making notes, to prepare you to discuss them in class. This only works if you come to class ready to discuss the papers in detail, which is why 15% of your grade is for in-class participation. There will be as much as 10-15 hours of reading per week. Do not take this course unless you are willing and able to do a lot of reading.</p>
+</li>
+<li><p>Programming Assignments: You will do three programming assignments in Python (see sidebar for more information). The last assignment will be an open-ended project.</p>
+</li>
+</ol>
+<h2>Grading Policy</h2>
+<p>The class is graded as follows:</p>
+<ul>
+<li><p><b>Reading and Participation: 35%</b></p>
+<ul>
+<li><p>critiques before class (20%)</p>
+</li>
+<li><p>in-class participation (15%)</p>
+</li></ul>
+</li>
+<li><p><b>Programming Assignments: 45%</b></p>
+<ul>
+<li><p>p.a.1 (10%)</p>
+</li>
+<li><p>p.a.2 (10%)</p>
+</li>
+<li><p>p.a.3 (25%)</p>
+</li></ul>
+</li>
+<li><p><b>Midterm: 20%</b></p>
+</li>
+</ul>
+<h2>Critiques</h2>
+<p>Before each class, you must submit a short critique of the required readings. Each critique should be about a half a page and should roughly cover the following questions:</p>
+<ul>
+<li><p>What is the paper about? What is the issue the authors are trying to solve?</p>
+</li>
+<li><p>What was the state of the world before this paper? How did this change that?</p>
+</li>
+<li><p>How do the authors go about trying to solve the issue? What's the main idea? What are the paper's main contributions?</p>
+</li>
+<li><p>How did the authors do? Is the evaluation sound and unbiased? Are the authors’ results sufficiently justified in the paper?</p>
+</li>
+<li><p>Who does the issue/paper affect? Will this paper be relevant in 10 years, or alternatively, has the paper stood the test of time?</p>
+</li>
+<li><p>What do you think about the paper? Is it well written?</p>
+</li>
+</ul>
+<p>Critiques will be submitted through Gradescope. Please use the code <b>9J6B68</b> to sign up. Critiques will be accepted until <b>12am (midnight)</b> the night before class. This is the hard deadline. Gradescope will allow submissions a few minutes late and these may be graded at the whim of your TAs.</p>
+<p>It is not possible to make up for a missed critique so please do not email the staff for late day requests.</p>
+<h2>In-class Participation</h2>
+<p>Is class participation based solely on attendance? No. Attendance is a necessary but not sufficient condition for good class participation. The general policy is that a student will automatically receive a deduction of one letter grade for missing more than 3 lectures. We will not take official roll during lecture, but because we make the effort to know everyone in the class we will notice if a student is frequently absent. If you have any concerns about not being able to regularly attend class (e.g., you will have to miss several classes during the quarter) please discuss this as soon as possible with the course staff. Beyond attendance, we evaluate class participation by observing how prepared students are to discuss the covered paper when they come to class. This is not a trivial requirement because we expect papers to have been read thoroughly prior to lecture.</p>
+<h2>Programming Assignments</h2>
+<p>We will have three programming assignments throughout the quarter. Please see the assignment section for details on each assignment.</p>
+<ul>
+<li><p><b>Programming Assignment 1:</b> Monday, Apr 15 2019, 5pm</p>
+</li>
+<li><p><b>Programming Assignment 2:</b> Mpnday, Apr 29 2019, 5pm</p>
+</li>
+<li><p><b>Final Project:</b> Due dates are below, details are TBA:</p>
+<ul>
+<li><p>Proposal: Monday, May 6 2019, 5pm</p>
+</li>
+<li><p>Intermediate report: TBA</p>
+</li>
+<li><p>Presentation sign-up: TBA</p>
+</li>
+<li><p>Presentations: Monday June 3 and Wednesday June 5 2019, in-class</p>
+</li>
+<li><p>Final papers: Thursday, June 6 2019, 5pm</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<h2>Exam</h2>
+<p>There will be one midterm exam. We will release a practice exam later in the quarter. The exam will test your understanding of papers and topics covered so far in the class. The exam will be open notes, open papers, and open laptop, but closed network.</p>
+<h2>Late Policy</h2>
+<p>We try hard to balance two constraints. On one hand, there are a lot of students in the class and we need to be strict about deadlines. If assignments are not turned in on time, it delays the grading of your work, and your TAs have to juggle grading different assignments at the same time. We've found that this makes the class unmanageable, and your TAs are left with less time to answer questions and help you with your assignments. On the other hand, emergencies happen from time to time. So here is the policy: If you hand in an assignment 0-24 hours late, you will lose 25% of the grade. 24-48 hours late and you will lose 50% of the grade. 48-72 hours late you will lose 75% of the grade. After 72 hours you will receive a zero.</p>
+<p>Despite the tough stuff above, you have one free late of 24 hours for one programming assignment. You can use it whenever you wish, but you must email both the TAs before the deadline to use your free late. Just like above, the 24 hours is a hard deadline, with no further extensions. We hope this lets you manage your quarter.</p>
+<h2>Exceptional Circumstances</h2>
+<p>Please do not ask TAs for extensions as they are not authorized to grant them. If you have a medical emergency, then email the instructor to request an extension. At times, there may be system problems with the computer cluster which may prevent you from completing your assignment on time. In these cases an extension will be granted to the entire class.</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2019-04-02 11:25:31 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

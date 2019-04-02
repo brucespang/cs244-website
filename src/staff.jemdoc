@@ -1,0 +1,24 @@
+# jemdoc: menu{MENU}{staff.html}
+= Teaching Staff
+
+== Instructor: [http://web.stanford.edu/~skatti/ Sachin Katti]
+~~~
+{}{img_left}{images/sachin.jpg}{Sachin Katti}{}{80px}
+- E-mail: [skatti@cs.stanford.edu]
+- Office: Gates Building 342
+~~~
+
+== Instructor: [http://cs.stanford.edu/~keithw/ Keith Winstein]
+~~~
+{}{img_left}{images/keithw.jpg}{Keith Winstein}{}{80px}
+- E-mail: [keithw@cs.stanford.edu]
+- Office: Gates Building 282
+~~~
+
+== TA: Bruce Spang
+~~~
+{}{img_left}{images/bspang.jpg}{Bruce Spang}{}{80px}
+- E-mail: [bspang@stanford.edu]
+~~~
+
+
