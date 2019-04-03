@@ -6,11 +6,11 @@
 
 = Schedule and reading list
 == Lec \#1: Introduction : Sachin & Keith
-*Mon, April 1, 2018, Week 1*
+*Mon, April 1, 2019, Week 1*
 - No readings
 
 == Lec \#2: Architecture and Principles : Sachin
-*Wed, April 3, 2018, Week 1*
+*Wed, April 3, 2019, Week 1*
 
 - *Bufferbloat assignment out*
 - D. D. Clark, [papers/DesignPhilosophyDARPA.pdf The Design Philosophy of the DARPA Internet Protocols], SIGCOMM 1988.
@@ -18,18 +18,18 @@
 - *(Optional)* Paul Baran, [papers/DistributedCommunicationsNetworks.pdf On Distributed Communications Networks], IEEE Trans. Communications, 1964.
 
 == Lec \#3: Architecture and Principles : Sachin
-*Mon, April 8, 2018, Week 2*
+*Mon, April 8, 2019, Week 2*
 
 - J. H. Saltzer, D. P. Reed, D. D. Clark [papers/End2EndSystemDesign.pdf End-to-End Arguments in System Design], Distributed Computing Systems, 1981.
 - B. Briscoe, [papers/fair-ccr2007.pdf Flow Rate Fairness: Dismantling a Religion], SIGCOMM CCR 2007.
 
 == Lec \#4: Congestion Control - TCP : Keith
-*Wed, April 11, 2018, Week 2*
+*Wed, April 10, 2019, Week 2*
 
 - V. Jacobson and M. J. Karels, [papers/CongestionControl.pdf Congestion Avoidance and Control], SIGCOMM 1988.
 
 == Lec \#5: Congestion Control II : Keith
-*Mon, April 15, 2018, Week 3*
+*Mon, April 15, 2019, Week 3*
 
 - *Bufferbloat assignment due*
 - *Compulsory reproduction out*
