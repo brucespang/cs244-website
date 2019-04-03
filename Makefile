@@ -11,10 +11,6 @@ build: $(HTMLS) MENU $(HTML)/jemdoc.css .htaccess_html
 	cp -Rf images/ html/images
 	cp .htaccess_html html/.htaccess
 
-.PHONY: upload
-upload:
-	rsync -r html/ bspang@myth.stanford.edu:/afs/.ir/class/cs244/WWW/
-
 clean:
 	rm $(HTMLS)
 
