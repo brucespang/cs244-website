@@ -21,12 +21,12 @@
 *Mon, April 8, 2019, Week 2*
 
 - J. H. Saltzer, D. P. Reed, D. D. Clark [papers/End2EndSystemDesign.pdf End-to-End Arguments in System Design], Distributed Computing Systems, 1981.
-- B. Briscoe, [papers/fair-ccr2007.pdf Flow Rate Fairness: Dismantling a Religion], SIGCOMM CCR 2007.
 
 == Lec \#4: Congestion Control - TCP : Keith
 *Wed, April 10, 2019, Week 2*
 
 - V. Jacobson and M. J. Karels, [papers/CongestionControl.pdf Congestion Avoidance and Control], SIGCOMM 1988.
+- B. Briscoe, [papers/fair-ccr2007.pdf Flow Rate Fairness: Dismantling a Religion], SIGCOMM CCR 2007 (to read and optionally mention in your critique, but please focus the critique on Jacobson/Karels)
 
 == Lec \#5: Congestion Control II : Keith
 *Mon, April 15, 2019, Week 3*
