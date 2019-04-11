@@ -39,6 +39,7 @@
 - (Optional) I. Swett and J. Iyengar, [https://tools.ietf.org/html/draft-tsvwg-quic-loss-recovery-00 QUIC Loss Recovery and Congestion Control], IETF draft 2015.
 - (Optional) M. Alizadeh, [papers/timely-review-sigcomm2015.pdf TIMELY: RTT-based Congestion Control for the Datacenter – Public Review], SIGCOMM 2015.
 - (Optional) A. Parekh and R. Gallager, [papers/ParekhGallagerFlowControl.pdf A generalized processor sharing approach to flow control in integrated services networks: the single-node case], IEEE/ACM Transactions on Networking (TON) 1993.
+- Recommended videos: [https://www.youtube.com/watch?v=9mv_iqgEgt0 Rate Guarantees], [https://www.youtube.com/watch?v=I66gPPhxbO0 Delay Guarantees].
 
 == Lec \#6: Architecture for real-time video : Keith
 *Wed, Apr 17, Week 3*
