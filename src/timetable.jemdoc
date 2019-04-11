@@ -33,11 +33,21 @@
 
 - *Bufferbloat assignment due*
 - *Compulsory reproduction out*
+- Winstein & Balakrishnan, [papers/nsdi13-sprout.pdf Sprout], NSDI 2013
+- M. Schapira and K. Winstein, [papers/hotnets17-congestion-control-throwdown.pdf Congestion-Control Throwdown], ACM HotNets 2017
+- (Optional) R. Mittal et al., [papers/timely-sigcomm2015.pdf TIMELY: RTT-based Congestion Control for the Datacenter], SIGCOMM 2015.
+- (Optional) I. Swett and J. Iyengar, [https://tools.ietf.org/html/draft-tsvwg-quic-loss-recovery-00 QUIC Loss Recovery and Congestion Control], IETF draft 2015.
+- (Optional) M. Alizadeh, [papers/timely-review-sigcomm2015.pdf TIMELY: RTT-based Congestion Control for the Datacenter – Public Review], SIGCOMM 2015.
+- (Optional) A. Parekh and R. Gallager, [papers/ParekhGallagerFlowControl.pdf A generalized processor sharing approach to flow control in integrated services networks: the single-node case], IEEE/ACM Transactions on Networking (TON) 1993.
 
 == Lec \#6: Architecture for real-time video : Keith
 *Wed, Apr 17, Week 3*
+
+- S. Fouladi, J. Emmons, E. Orbay et. al. [papers/salsify-paper.pdf Salsify: Low-Latency Network Video through Tighter Integration between a Video Codec and a Transport Protocol], NSDI 2018
+
 == Lec \#7: Programmable Forwarding Planes : Changhoon Kim
 *Mon, April 22, Week 4*
+
 == Lec \#8: Software Defined Networking : Nick McKeown
 *Wed, April 24, Week 4*
 == Lec \#9: Switching : Sachin
