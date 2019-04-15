@@ -7,12 +7,14 @@
 = Schedule and reading list
 == Lec \#1: Introduction : Sachin & Keith
 *Mon, April 1, 2019, Week 1*
+- [slides/Lecture_01_2019.ppt Slides]
 - No readings
 
 == Lec \#2: Architecture and Principles : Sachin
 *Wed, April 3, 2019, Week 1*
 
 - *Bufferbloat assignment out*
+- [slides/Lecture_02_2019external.ppt Slides]
 - D. D. Clark, [papers/DesignPhilosophyDARPA.pdf The Design Philosophy of the DARPA Internet Protocols], SIGCOMM 1988.
 - *(Optional)* Barry M. Leiner et. al., [http://www.isoc.org/internet/history/brief.shtml A Brief History of the Internet].
 - *(Optional)* Paul Baran, [papers/DistributedCommunicationsNetworks.pdf On Distributed Communications Networks], IEEE Trans. Communications, 1964.
@@ -20,6 +22,7 @@
 == Lec \#3: Architecture and Principles : Sachin
 *Mon, April 8, 2019, Week 2*
 
+- [slides/Lecture_03_2019.ppt Slides]
 - J. H. Saltzer, D. P. Reed, D. D. Clark [papers/End2EndSystemDesign.pdf End-to-End Arguments in System Design], Distributed Computing Systems, 1981.
 
 == Lec \#4: Congestion Control - TCP : Keith
