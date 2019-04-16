@@ -48,12 +48,15 @@
 == Lec \#7: Programmable Forwarding Planes : Changhoon Kim
 *Mon, April 22, Week 4*
 
-- [papers/sdn-chip-sigcomm-2013.pdf Forwarding metamorphosis: fast programmable match-action processing in hardware for SDN]. SIGCOMM'13
-- [papers/SOSP17_NetCache.pdf NetCache: Balancing Key-Value Stores with Fast In-Network Caching]. SOSP'17
+- Bosshart et al. [papers/sdn-chip-sigcomm-2013.pdf Forwarding metamorphosis: fast programmable match-action processing in hardware for SDN]. SIGCOMM'13
+- Jin et al. [papers/SOSP17_NetCache.pdf NetCache: Balancing Key-Value Stores with Fast In-Network Caching]. SOSP'17
 - (Optional) [papers/p4-2014.pdf P4: Programming Protocol-Independent Packet Processors]. ACM CCR July 2014
 
 == Lec \#8: Software Defined Networking : Nick McKeown
 *Wed, April 24, Week 4*
+
+- Koponen et al. [papers/network-virtualization-koponen-nsdi14.pdf Network Virtualization in Multi-tenant Datacenters]. NSDI'14
+
 == Lec \#9: Switching : Sachin
 *Mon, April 29, Week 5*
 - *Compulsory reproduction due*
