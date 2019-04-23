@@ -55,6 +55,7 @@
 == Lec \#8: Software Defined Networking : Nick McKeown
 *Wed, April 24, Week 4*
 
+- McKeown et al. [papers/openflow.pdf OpenFlow: Enabling Innovation in Campus Networks]. ACM CCR April 2008
 - Koponen et al. [papers/network-virtualization-koponen-nsdi14.pdf Network Virtualization in Multi-tenant Datacenters]. NSDI'14
 
 == Lec \#9: Switching : Sachin
