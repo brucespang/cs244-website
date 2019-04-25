@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Final Project (Draft)</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-item"><a href="index.html">CS244&nbsp;Home</a></div>
+<div class="menu-item"><a href="honorcode.html">Honor&nbsp;Code</a></div>
+<div class="menu-category">Paper Reading</div>
+<div class="menu-item"><a href="timetable.html">Schedule&nbsp;&amp;&nbsp;Papers</a></div>
+<div class="menu-item"><a href="critique.html">Critique&nbsp;Submission</a></div>
+<div class="menu-category">Programming Assignments</div>
+<div class="menu-item"><a href="https://github.com/mininet/mininet/wiki/Introduction-to-Mininet">Introduction&nbsp;to&nbsp;Mininet</a></div>
+<div class="menu-item"><a href="vbsetup.html">VirtualBox&nbsp;Mininet&nbsp;Setup</a></div>
+<div class="menu-item"><a href="pa1.html">Assignment&nbsp;1</a></div>
+<div class="menu-item"><a href="pa2.html">Assignment&nbsp;2</a></div>
+<div class="menu-category">Misc</div>
+<div class="menu-item"><a href="http://piazza.com/stanford/spring2019/cs244">Discussion&nbsp;on&nbsp;Piazza</a></div>
+<div class="menu-item"><a href="staff.html">Staff</a></div>
+<div class="menu-item"><a href="https://github.com/yanlisa/reproducibility/wiki/Reproducing-Network-Research">Reproducibility&nbsp;Github</a></div>
+<div class="menu-item"><a href="http://reproducingnetworkresearch.wordpress.com/">Reproducing&nbsp;Network&nbsp;Research</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Final Project (Draft)</h1>
+</div>
+<p>The final project of the class requires original work and is intended to give an introduction to the research process. It will require more effort than the first two assignments. We would like you to start early, send e-mail updates often to the teaching staff, and manage the project to finish by the end of the quarter. You may choose to do either:</p>
+<ul>
+<li><p><b>an original research project</b> in the area of computer networking or</p>
+</li>
+<li><p><b>reproduce a result from a networking paper</b> that hasn't been reproduced in previous iterations of CS244.</p>
+</li>
+</ul>
+<p>For a <b>reproduction project</b>, here are some sample questions your project might try to answer:</p>
+<ul>
+<li><p>Does the primary result in the paper hold up? Can you generate a plot or graph that looks the same as one of the main figures in the original paper, and explain where it came from?</p>
+</li>
+<li><p>What kind of &ldquo;reproduction&rdquo; is appropriate? Most plots can be reproduced if you simply re-plot the authors&rsquo; original data on the same axes! Can the data be generated afresh? Are the assumptions behind the data-generating process, and the way the system was compared with prior work, realistic?</p>
+</li>
+<li><p>What was difficult to reproduce? Were you able to package the contribution of the paper in a way that makes it easier for future &ldquo;reproducteurs&rdquo; to reproduce the major results?</p>
+</li>
+<li><p>What happens if you vary a parameter the original experimenter didn't consider?</p>
+</li>
+<li><p>Having reproduced the primary result, can you now extend or improve the work?</p>
+</li>
+<li><p>Can you find a simplification to the system that still preserves most of the claimed improvements? If so, this can indicate that the original authors are mistaken about why their system outperforms prior work.</p>
+</li>
+</ul>
+<p>See the &ldquo;Searching for Interesting Papers&rdquo; section below for ideas on where to look for recent or interesting papers. The previous class projects are on the <a href="https://reproducingnetworkresearch.wordpress.com/">Reproducing Network Research</a> site.</p>
+<p>An <b>original project</b> can be a proof of concept of a novel networked system, an extension of existing work, or any research project that you could realistically extend to a conference-quality paper. Some types of conference papers include:</p>
+<ul>
+<li><p><b>New systems.</b> Questions to answer: how and why did you design the system the way you did? How does the system perform in comparison with prior work in similar areas? Why does it perform as it does (i.e., which design decisions account for what benefits)? What are the system's weaknesses and limitations?</p>
+</li>
+<li><p><b>Measurements.</b> What can you learn (about the Internet, about another network, about applications, about people, about spam email, about cryptocurrency, about online video games, about social science) by using the tools of computer networking? What kind of measurement tools or techniques did you use, and what did they tell you about something in the real world? How can somebody reproduce your measurement? What are some weaknesses or potential confounders of your measurement?</p>
+</li>
+<li><p><b>Any other creative project</b> using the tools or problem domain of computer networking.</p>
+</li>
+</ul>
+<p><b>Much of this project is intentionally underspecified</b>, and you should pick a project that you have sufficient time and experience to accomplish. Depending on what you propose, your project could require using a profiler, modifying the Linux kernel, implementing a custom simulator, learning a new scripting language, proving an interesting new result, or coordinating a software development effort across multiple group members. You will likely need to read research papers outside of the class reading list or the particular paper you are trying to reproduce. (Check the references of any paper for the most closely related prior work, and read or skim the prior work!)</p>
+<p><b>Your final deliverable will be a 4-6 page report</b> about your project. You will be expected to:</p>
+<ul>
+<li><p>Introduce the project, placing it in context, giving an overview, and summarizing your major contributions or findings</p>
+</li>
+<li><p>Discuss prior work and the landscape of the area</p>
+</li>
+<li><p>Explain your methods and/or the design of your system</p>
+</li>
+<li><p>Present the experimental setup in detail (assuming there are experiments, rather than proofs)</p>
+</li>
+<li><p>Describe the results in figures and text</p>
+</li>
+<li><p>Discuss the meaning of the results and what the reader should take away</p>
+</li>
+<li><p>Describe the limitations and weaknesses of your system, measurement, or effort at replication</p>
+</li>
+<li><p>Propose a plan for future work in the area. What would you do next if you had more time?</p>
+</li>
+</ul>
+<p>For reproduction projects, you will post your final writeup on the <a href="https://reproducingnetworkresearch.wordpress.com/">Reproducing Network Research</a> site (please email the instructors if you would like an exception to this practice).</p>
+<p>Be wise and mindful of your (other) deadlines and other commitments before you decide your deliverable.</p>
+<h2>Deadlines and Deliverables</h2>
+<p><b>Project Proposal</b> due Monday, May 6 2019, 5pm:</p>
+<ul>
+<li><p>Before you submit your proposal, we encourage you to talk to us (e.g. in office hours, or in lecture).</p>
+</li>
+<li><p>Pick either:</p>
+<ul>
+<li><p>a paper to reproduce OR</p>
+</li>
+<li><p>an original project idea</p>
+</li></ul>
+</li>
+<li><p>Write up to <b>one page</b> describing:</p>
+<ul>
+<li><p>Who is in your group</p>
+</li>
+<li><p>The particular results you would like to replicate, or the overall goal of your original project.</p>
+</li>
+<li><p>Details about what you will implement or measure</p>
+</li>
+<li><p>A brief outline of incremental steps you will need to do to finish the project as well as a timeline. The goal here is to convince both us and yourself that your project is neither too small nor too big.</p>
+</li></ul>
+</li>
+<li><p>Submit proposal on gradescope</p>
+</li>
+</ul>
+<p><b>Intermediate project report</b> due Monday, May 20 2019, 11:59pm:</p>
+<ul>
+<li><p>Should have the structure of the final report. Please check Piazza for more information.</p>
+</li>
+<li><p>Complete introduction written.</p>
+</li>
+<li><p>Status of the project.</p>
+</li>
+<li><p>Plan for the remaining time</p>
+</li>
+</ul>
+<p><b>Presentations</b> held on Monday, June 3 and Wednesday, June 5 2019:</p>
+<ul>
+<li><p>More info to come.</p>
+</li>
+</ul>
+<p><b>Final Report</b> due Thursday, June 6, 5pm:</p>
+<ul>
+<li><p>Mini-paper: 4-6 pages.  This is your final report. More info to come.</p>
+</li>
+</ul>
+<h2>Regular Check-ins and Meetings</h2>
+<p>During the course of the assignment, you'll have <b>one mandatory meeting</b> with the staff around the time the milestone is due. The goal is to make sure you're on track to complete the assignment. In addition, we will expect you to send an email each week to the staff describing (1) what you did this week and (2) what you need to do next week to stay on track. These emails will not be graded, the idea is to make sure you are making incremental progress. You may also visit the office hours of your TA or any instructor.</p>
+<h2>Grading</h2>
+<p>You'll be graded out of 25 points total.
+The grades will be based on the following:</p>
+<ul>
+<li><p>Intermediate progress report</p>
+</li>
+<li><p>Final report</p>
+</li>
+<li><p>Quality of experimental setup and results</p>
+</li>
+<li><p>If you end up doing a presentation, this will only boost your grade.</p>
+</li>
+</ul>
+<p>More than the success of the final outcome, we look for how thorough your efforts have been.</p>
+<h2>Searching for Interesting Papers</h2>
+<p>We recommend searching for interesting papers published in recent years in top systems and networking conferences, or by searching through the references section of another paper in the field. Relevant venues include:</p>
+<ul>
+<li><p><a href="http://conferences.sigcomm.org/sigcomm/2018/program.html">SIGCOMM</a>: major conference in computer networking</p>
+</li>
+<li><p><a href="https://www.usenix.org/conference/nsdi18/technical-sessions">NSDI</a>:  networking and systems (overlap with OSDI)</p>
+</li>
+<li><p><a href="https://conferences.sigcomm.org/imc/2018/program/">IMC</a>: top-tier conference in Internet measurement</p>
+</li>
+<li><p><a href="https://conferences2.sigcomm.org/co-next/2018/#!/program">CoNEXT</a>:  second-tier conference in computer networking</p>
+</li>
+<li><p><a href="https://www.usenix.org/conference/osdi18/technical-sessions">OSDI</a>:  major conference in computer systems (sometimes including networking)</p>
+</li>
+<li><p><a href="http://sigops.org/s/conferences/sosp/2017/program.html">SOSP</a>:  alternates years with OSDI</p>
+</li>
+<li><p><a href="https://www.usenix.org/conference/atc18/technical-sessions">USENIX ATC</a>: second-tier conference in computer systems (sometimes including networking)</p>
+</li>
+<li><p><a href="https://conferences.sigcomm.org/hotnets/2018/program.html">HotNets</a>: upcoming work and position papers in networking. Intended to be exciting, half-baked proposals.</p>
+</li>
+<li><p><a href="https://ccronline.sigcomm.org/">CCR</a>: Computer Communications Review.</p>
+</li>
+</ul>
+<p>Other places would be the website of authors whose papers you've read in class and liked</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2019-04-24 18:19:59 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
