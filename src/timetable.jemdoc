@@ -61,18 +61,25 @@
 
 == Lec \#9: Switching : Sachin
 *Mon, April 29, Week 5*
+
 - *Compulsory reproduction due*
+- T. Anderson et al., [papers/HighSpeedSwitchScheduling.pdf High-speed Switch Scheduling for Local-area Networks], ACM Trans. Computer Systems, 1993.
+
 == Lec \#10: Buffer Sizing : Sachin
 *Wed, May 1, Week 5*
+
+- G. Appenzeller et al., [papers/SizingRouterBuffersAppenzeller.pdf Sizing Router Buffers], SIGCOMM 2004.
+
 == Lec \#11: Video Streaming : Keith
 *Mon, May 6, Week 6*
 - *Free reproduction proposal due*
 - *Group meetings this week*
 
+
 == Lec \#12: Zakir
 *Wed, May 8, Week 6*
 
-== Midterm 
+== Midterm
 *Mon, May 13, Week 7*
 
 == Lec \#14: ML for networks : Balaji Prabhakar
@@ -95,5 +102,3 @@
 *Wed, Jun 5, Week 10*
 
 == Thursday, June 6, Week 10: Project writeups due
-
-
