@@ -1,5 +1,5 @@
 # jemdoc: menu{MENU}{pa3.html}
-= Final Project (Draft)
+= Final Project
 
 The final project of the class requires original work and is intended to give an introduction to the research process. It will require more effort than the first two assignments. We would like you to start early, send e-mail updates often to the teaching staff, and manage the project to finish by the end of the quarter. You may choose to do either:
 - *an original research project* in the area of computer networking or
@@ -7,7 +7,7 @@ The final project of the class requires original work and is intended to give an
 
 For a *reproduction project*, here are some sample questions your project might try to answer:
 - Does the primary result in the paper hold up? Can you generate a plot or graph that looks the same as one of the main figures in the original paper, and explain where it came from?
-- What kind of "reproduction" is appropriate? Most plots can be reproduced if you simply re-plot the authors' original data on the same axes! Can the data be generated afresh? Are the assumptions behind the data-generating process, and the way the system was compared with prior work, realistic?
+- What kind of "reproduction" is appropriate? Most plots can be reproduced if you simply re-plot the authors' original data on the same axes. Can the data be generated afresh? Are the assumptions behind the data-generating process, and the way the system was compared with prior work, realistic? Do your results support the paper's claims about the generalizability, or applicability, of the results? (Your reproduction effort should be designed in a way that it can, in principle, detect if the original paper is wrong.)
 - What was difficult to reproduce? Were you able to package the contribution of the paper in a way that makes it easier for future "reproducteurs" to reproduce the major results?
 - What happens if you vary a parameter the original experimenter didn't consider?
 - Having reproduced the primary result, can you now extend or improve the work?
@@ -32,9 +32,9 @@ An *original project* can be a proof of concept of a novel networked system, an 
 - Describe the limitations and weaknesses of your system, measurement, or effort at replication
 - Propose a plan for future work in the area. What would you do next if you had more time?
 
-For reproduction projects, you will post your final writeup on the [https://reproducingnetworkresearch.wordpress.com/ Reproducing Network Research] site (please email the instructors if you would like an exception to this practice).
+For reproduction projects, you will post your final writeup on the [https://reproducingnetworkresearch.wordpress.com/ Reproducing Network Research] site (please email the instructors in advance if you would like an exception to this practice).
 
-Be wise and mindful of your (other) deadlines and other commitments before you decide your deliverable.
+Please be wise and mindful of your (other) deadlines and other commitments before you decide your deliverable.
 
 == Deadlines and Deliverables
 *Project Proposal* due Monday, May 6 2019, 5pm:
@@ -59,10 +59,10 @@ Be wise and mindful of your (other) deadlines and other commitments before you d
 - More info to come.
 
 *Final Report* due Thursday, June 6, 5pm:
-- Mini-paper: 4-6 pages.  This is your final report. More info to come.
+- Mini-paper: 4-6 pages.  This is your final report. Please see the [https://reproducingnetworkresearch.wordpress.com/ blog of past student work] for examples.
 
 == Regular Check-ins and Meetings
-During the course of the assignment, you'll have *one mandatory meeting* with the staff around the time the milestone is due. The goal is to make sure you're on track to complete the assignment. In addition, we will expect you to send an email each week to the staff describing (1) what you did this week and (2) what you need to do next week to stay on track. These emails will not be graded, the idea is to make sure you are making incremental progress. You may also visit the office hours of your TA or any instructor.
+During the course of the assignment, you'll have *one mandatory meeting* with the staff around the time the milestone is due. The goal is to make sure you're on track to complete the assignment. In addition, we will expect you to send an email *each week* to the staff describing (1) what you did this week and (2) what you need to do next week to stay on track. These emails will not be graded; the idea is to make sure you are making incremental progress. We also encourage you to visit the office hours to discuss your project as your project evolves.
 
 == Grading
 You'll be graded out of 25 points total.
