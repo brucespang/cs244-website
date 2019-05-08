@@ -93,16 +93,25 @@
 == Lec \#14: ML for networks : Balaji Prabhakar
 *Wed, May 15, Week 7*
 
+- Y. Geng et al. [papers/nsdi18-geng.pdf Exploiting a Natural Network Effect for Scalable, Fine-grained Clock Synchronization]. NSDI '18
+
 == Lec \#15: Datacenters : Amin Vahdat
 *Mon, May 20, Week 8*
 - *Project checkpoint meetings this week*
+
 == Lec \#16: Wireless : Sachin
 *Wed, May 22, Week 8*
+
 == Holiday: Memorial Day
 *Mon, May 27, Week 9*
 - Memorial Day, No class
+
 == Lec \# 17: Ethics : Keith
 *Wed, May 29, Week 9*
+
+- S. Burnett and N. Feamster, [papers/p653.pdf Encore: Lightweight Measurement of Web Censorship], SIGCOMM '15
+- R. Ensafi et al. [papers/greatfirewall-imc2015.pdf Examining How the Great Firewall Discovers Hidden Circumvention Servers], IMC '15
+
 == Lec \#18: AUA & Student presentations
 *Mon, Jun 3, Week 10*
 
