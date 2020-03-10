@@ -5,7 +5,7 @@
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>CS244: Advanced Topics in Networking, Spring 2019</title>
+<title>CS244: Advanced Topics in Networking, Spring 2020</title>
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
@@ -16,44 +16,30 @@
 <div class="menu-category">Paper Reading</div>
 <div class="menu-item"><a href="timetable.html">Schedule&nbsp;&amp;&nbsp;Papers</a></div>
 <div class="menu-item"><a href="critique.html">Critique&nbsp;Submission</a></div>
-<div class="menu-category">Programming Assignments</div>
-<div class="menu-item"><a href="https://github.com/mininet/mininet/wiki/Introduction-to-Mininet">Introduction&nbsp;to&nbsp;Mininet</a></div>
-<div class="menu-item"><a href="vbsetup.html">VirtualBox&nbsp;Mininet&nbsp;Setup</a></div>
-<div class="menu-item"><a href="pa1.html">Assignment&nbsp;1</a></div>
-<div class="menu-item"><a href="pa2.html">Assignment&nbsp;2</a></div>
-<div class="menu-item"><a href="pa3.html">Final&nbsp;Project</a></div>
 <div class="menu-category">Misc</div>
-<div class="menu-item"><a href="http://piazza.com/stanford/spring2019/cs244">Discussion&nbsp;on&nbsp;Piazza</a></div>
+<div class="menu-item"><a href="http://piazza.com/stanford/spring2020/cs244/home">Discussion&nbsp;on&nbsp;Piazza</a></div>
 <div class="menu-item"><a href="staff.html">Staff</a></div>
 <div class="menu-item"><a href="https://github.com/yanlisa/reproducibility/wiki/Reproducing-Network-Research">Reproducibility&nbsp;Github</a></div>
 <div class="menu-item"><a href="http://reproducingnetworkresearch.wordpress.com/">Reproducing&nbsp;Network&nbsp;Research</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
-<h1>CS244: Advanced Topics in Networking, Spring 2019</h1>
+<h1>CS244: Advanced Topics in Networking, Spring 2020</h1>
 </div>
-<p>Professors: <b>Sachin Katti</b> and <b>Keith Winstein</b></p>
+<p>Professors: <b>Sachin Katti</b> and <b>Nick McKeown</b></p>
 <p>TA: <b>Bruce Spang</b></p>
-<p>Lectures: <b>Mon, Wed 3:00PM - 4:20PM</b> at <a href="https://campus-map.stanford.edu/?srch=380-380Y">Building 380-380Y</a></p>
-<p>Discussion Sections: Fridays 2:30PM - 3:20PM in <a href="https://campus-map.stanford.edu/?srch=Gates%20computer%20science">Gates B-12</a>. Held only when announced.</p>
+<p>Lectures: <b>Tue, Thu 9:00AM - 10:20AM</b> at <a href="https://campus-map.stanford.edu/?srch=380-380Y">Building 380-380Y</a></p>
 <p>Office Hours:</p>
 <ul>
-<li><p>Keith: Thursdays, 2-3 p.m. in Gates 282</p>
-</li>
 <li><p>Sachin: TBD</p>
 </li>
-<li><p>Bruce: 1-3pm on Thursdays in Gates 494 (or by appointment)</p>
-<ul>
-<li><p>Wednesday 5/22: 10am-noon</p>
+<li><p>Nick: TBD</p>
 </li>
-<li><p>Thursday 5/23: office hours cancelled</p>
-</li>
-</ul>
-
+<li><p>Bruce: 10:30am-Noon Tuesdays in Gates 494 (or by appointment)</p>
 </li>
 </ul>
 <h1>Course Description</h1>
-<p>CS244 is a graduate course in computer networks. Spring 2019 marks the eleventh offering of this class.</p>
+<p>CS244 is a graduate course in computer networks. Spring 2020 marks the twelfth offering of this class.</p>
 <p>The goals for this class are:</p>
 <ul>
 <li><p>To become familiar with the state of the art in networking research: network architecture, protocols and systems.</p>
@@ -65,7 +51,6 @@
 </ul>
 <p>In the past two decades, the Internet has grown from a research tool to a fundamental part of society; something we all take for granted and use everyday. In this class we'll explore why the infrastructure was designed this way, and the underlying principles and design decisions. We'll explore the pros and cons of the current design, and give some thought to how we can make the Internet better in future.</p>
 <p><b>Looking for the reproducibility github wiki?</b> Find it <a href="https://github.com/yanlisa/reproducibility/wiki/Reproducing-Network-Research">here</a> or on the sidebar.</p>
-<h1>Announcements</h1>
 <h1>About the Course</h1>
 <h2>Requirements</h2>
 <p>You must have taken CS 144, EE 284 or equivalent. If you have any doubt, ask for permission from Keith or Sachin. This background is essential before taking the class, as we'll read a lot papers quickly without time to catch up on the basics. The course assumes an understanding of topics in networking such as packet-switching, routing (distance vector and shortest path first), socket programming, and congestion control. You need an SUNetID to access the papers and print them.</p>
@@ -123,31 +108,18 @@
 <li><p>What do you think about the paper? Is it well written?</p>
 </li>
 </ul>
-<p>Critiques will be submitted through Gradescope. Please use the code <b>9J6B68</b> to sign up. Critiques will be accepted until <b>12am (midnight)</b> the night before class. This is the hard deadline. Gradescope will allow submissions a few minutes late and these may be graded at the whim of your TAs.</p>
+<p>Critiques will be submitted through Gradescope. Please use the code <b>MDXKZE</b> to sign up. Critiques will be accepted until <b>12am (midnight)</b> the night before class. This is the hard deadline. Gradescope will allow submissions a few minutes late and these may be graded at the whim of your TAs.</p>
 <p>It is not possible to make up for a missed critique so please do not email the staff for late day requests.</p>
 <h2>In-class Participation</h2>
 <p>Is class participation based solely on attendance? No. Attendance is a necessary but not sufficient condition for good class participation. The general policy is that a student will automatically receive a deduction of one letter grade for missing more than 3 lectures. We will not take official roll during lecture, but because we make the effort to know everyone in the class we will notice if a student is frequently absent. If you have any concerns about not being able to regularly attend class (e.g., you will have to miss several classes during the quarter) please discuss this as soon as possible with the course staff. Beyond attendance, we evaluate class participation by observing how prepared students are to discuss the covered paper when they come to class. This is not a trivial requirement because we expect papers to have been read thoroughly prior to lecture.</p>
 <h2>Programming Assignments</h2>
 <p>We will have three programming assignments throughout the quarter. Please see the assignment section for details on each assignment.</p>
 <ul>
-<li><p><b>Programming Assignment 1:</b> Monday, Apr 15 2019, 5pm</p>
+<li><p><b>Programming Assignment 1:</b> TBA</p>
 </li>
-<li><p><b>Programming Assignment 2:</b> Mpnday, Apr 29 2019, 5pm</p>
+<li><p><b>Programming Assignment 2:</b> TBA</p>
 </li>
-<li><p><b>Final Project:</b> Due dates are below, details are TBA:</p>
-<ul>
-<li><p>Proposal: Monday, May 6 2019, 5pm</p>
-</li>
-<li><p>Intermediate report: TBA</p>
-</li>
-<li><p>Presentation sign-up: TBA</p>
-</li>
-<li><p>Presentations: Monday June 3 and Wednesday June 5 2019, in-class</p>
-</li>
-<li><p>Final papers: Thursday, June 6 2019, 5pm</p>
-</li>
-</ul>
-
+<li><p><b>Final Project:</b> TBA</p>
 </li>
 </ul>
 <h2>Exam</h2>
@@ -159,7 +131,7 @@
 <p>Please do not ask TAs for extensions as they are not authorized to grant them. If you have a medical emergency, then email the instructor to request an extension. At times, there may be system problems with the computer cluster which may prevent you from completing your assignment on time. In these cases an extension will be granted to the entire class.</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2019-05-16 10:53:42 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2020-03-10 10:06:44 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>

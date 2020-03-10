@@ -1,24 +1,20 @@
 # jemdoc: menu{MENU}{index.html}
-= CS244: Advanced Topics in Networking, Spring 2019
+= CS244: Advanced Topics in Networking, Spring 2020
 
-Professors: *Sachin Katti* and *Keith Winstein*
+Professors: *Sachin Katti* and *Nick McKeown*
 
 TA: *Bruce Spang*
 
-Lectures: *Mon, Wed 3:00PM - 4:20PM* at [https://campus-map.stanford.edu/?srch=380-380Y Building 380-380Y]
-
-Discussion Sections: Fridays 2:30PM - 3:20PM in [https://campus-map.stanford.edu/?srch=Gates%20computer%20science Gates B-12]. Held only when announced.
+Lectures: *Tue, Thu 9:00AM - 10:20AM* at [https://campus-map.stanford.edu/?srch=380-380Y Building 380-380Y]
 
 Office Hours:
-- Keith: Thursdays, 2-3 p.m. in Gates 282
 - Sachin: TBD
-- Bruce: 1-3pm on Thursdays in Gates 494 (or by appointment)
--- Wednesday 5/22: 10am-noon
--- Thursday 5/23: office hours cancelled
+- Nick: TBD
+- Bruce: 10:30am-Noon Tuesdays in Gates 494 (or by appointment)
 
 = Course Description
 
-CS244 is a graduate course in computer networks. Spring 2019 marks the eleventh offering of this class.
+CS244 is a graduate course in computer networks. Spring 2020 marks the twelfth offering of this class.
 
 The goals for this class are:
 
@@ -29,8 +25,6 @@ The goals for this class are:
 In the past two decades, the Internet has grown from a research tool to a fundamental part of society; something we all take for granted and use everyday. In this class we'll explore why the infrastructure was designed this way, and the underlying principles and design decisions. We'll explore the pros and cons of the current design, and give some thought to how we can make the Internet better in future.
 
 *Looking for the reproducibility github wiki?* Find it [https://github.com/yanlisa/reproducibility/wiki/Reproducing-Network-Research here] or on the sidebar.
-
-= Announcements
 
 = About the Course
 
@@ -73,7 +67,7 @@ Before each class, you must submit a short critique of the required readings. Ea
 - Who does the issue/paper affect? Will this paper be relevant in 10 years, or alternatively, has the paper stood the test of time?
 - What do you think about the paper? Is it well written?
 
-Critiques will be submitted through Gradescope. Please use the code *9J6B68* to sign up. Critiques will be accepted until *12am (midnight)* the night before class. This is the hard deadline. Gradescope will allow submissions a few minutes late and these may be graded at the whim of your TAs.
+Critiques will be submitted through Gradescope. Please use the code *MDXKZE* to sign up. Critiques will be accepted until *12am (midnight)* the night before class. This is the hard deadline. Gradescope will allow submissions a few minutes late and these may be graded at the whim of your TAs.
 
 It is not possible to make up for a missed critique so please do not email the staff for late day requests.
 
@@ -85,14 +79,9 @@ Is class participation based solely on attendance? No. Attendance is a necessary
 
 We will have three programming assignments throughout the quarter. Please see the assignment section for details on each assignment.
 
-- *Programming Assignment 1:* Monday, Apr 15 2019, 5pm
-- *Programming Assignment 2:* Mpnday, Apr 29 2019, 5pm
-- *Final Project:* Due dates are below, details are TBA:
--- Proposal: Monday, May 6 2019, 5pm
--- Intermediate report: TBA
--- Presentation sign-up: TBA
--- Presentations: Monday June 3 and Wednesday June 5 2019, in-class
--- Final papers: Thursday, June 6 2019, 5pm
+- *Programming Assignment 1:* TBA
+- *Programming Assignment 2:* TBA
+- *Final Project:* TBA
 
 == Exam
 

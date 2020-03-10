@@ -5,122 +5,25 @@
 - Papers are by default in the 'Read deep' category, unless they are marked as 'Optional'.
 
 = Schedule and reading list
-== Lec \#1: Introduction : Sachin & Keith
-*Mon, April 1, 2019, Week 1*
-- [slides/Lecture_01_2019.ppt Slides]
+== Lec \#1: Introduction
+*Tue, March 31, 2020, Week 1*
 - No readings
 
-== Lec \#2: Architecture and Principles : Sachin
-*Wed, April 3, 2019, Week 1*
+== Lec \#2: Architecture and Principles
+*Thu, April 2, 2020, Week 1*
 
-- *Bufferbloat assignment out*
-- [slides/Lecture_02_2019external.ppt Slides]
 - D. D. Clark, [papers/DesignPhilosophyDARPA.pdf The Design Philosophy of the DARPA Internet Protocols], SIGCOMM 1988.
 - *(Optional)* Barry M. Leiner et. al., [http://www.isoc.org/internet/history/brief.shtml A Brief History of the Internet].
 - *(Optional)* Paul Baran, [papers/DistributedCommunicationsNetworks.pdf On Distributed Communications Networks], IEEE Trans. Communications, 1964.
 
-== Lec \#3: Architecture and Principles : Sachin
-*Mon, April 8, 2019, Week 2*
+== Lec \#3: Architecture and Principles
+*Tue, April 7, 2020, Week 2*
 
 - [slides/Lecture_03_2019.ppt Slides]
 - J. H. Saltzer, D. P. Reed, D. D. Clark [papers/End2EndSystemDesign.pdf End-to-End Arguments in System Design], Distributed Computing Systems, 1981.
 
-== Lec \#4: Congestion Control - TCP : Keith
-*Wed, April 10, 2019, Week 2*
+== Lec \#4: Congestion Control - TCP
+*Thu, April 9, 2020, Week 2*
 
 - V. Jacobson and M. J. Karels, [papers/CongestionControl.pdf Congestion Avoidance and Control], SIGCOMM 1988.
 - B. Briscoe, [papers/fair-ccr2007.pdf Flow Rate Fairness: Dismantling a Religion], SIGCOMM CCR 2007 (to read and optionally mention in your critique, but please focus the critique on Jacobson/Karels)
-
-== Lec \#5: Congestion Control II : Keith
-*Mon, April 15, 2019, Week 3*
-
-- *Bufferbloat assignment due*
-- *Compulsory reproduction out*
-- Yan et al., [https://www.usenix.org/system/files/conference/atc18/atc18-yan-francis.pdf Pantheon], USENIX ATC 2018
-- (short paper) M. Schapira and K. Winstein, [papers/hotnets17-congestion-control-throwdown.pdf Congestion-Control Throwdown], ACM HotNets 2017
-- Optional video: [https://www.youtube.com/watch?v=T1DCoNoVvRM Congestion-control throwdown debate], ACM HotNets 2017
-
-== Lec \#6: Architecture for real-time video : Keith
-*Wed, Apr 17, Week 3*
-
-- S. Fouladi, J. Emmons, E. Orbay et. al. [papers/salsify-paper.pdf Salsify: Low-Latency Network Video through Tighter Integration between a Video Codec and a Transport Protocol], NSDI 2018
-
-== Lec \#7: Programmable Forwarding Planes : Changhoon Kim
-*Mon, April 22, Week 4*
-
-- [slides/Lecture_07_2019.pdf Slides]
-- Bosshart et al. [papers/sdn-chip-sigcomm-2013.pdf Forwarding metamorphosis: fast programmable match-action processing in hardware for SDN]. SIGCOMM'13
-- Jin et al. [papers/SOSP17_NetCache.pdf NetCache: Balancing Key-Value Stores with Fast In-Network Caching]. SOSP'17
-- (Optional) [papers/p4-2014.pdf P4: Programming Protocol-Independent Packet Processors]. ACM CCR July 2014
-
-== Lec \#8: Software Defined Networking : Nick McKeown
-*Wed, April 24, Week 4*
-
-- McKeown et al. [papers/openflow.pdf OpenFlow: Enabling Innovation in Campus Networks]. ACM CCR April 2008
-- Koponen et al. [papers/network-virtualization-koponen-nsdi14.pdf Network Virtualization in Multi-tenant Datacenters]. NSDI'14
-
-== Lec \#9: Switching : Sachin
-*Mon, April 29, Week 5*
-
-- *Compulsory reproduction due*
-- T. Anderson et al., [papers/HighSpeedSwitchScheduling.pdf High-speed Switch Scheduling for Local-area Networks], ACM Trans. Computer Systems, 1993.
-
-== Lec \#10: Buffer Sizing : Sachin
-*Wed, May 1, Week 5*
-
-- G. Appenzeller et al., [papers/SizingRouterBuffersAppenzeller.pdf Sizing Router Buffers], SIGCOMM 2004.
-
-== Lec \#11: Video Streaming : Keith
-*Mon, May 6, Week 6*
-- *Free reproduction proposal due*
-- *Group meetings this week*
-- *No critique needed for this class*
-
-- Yin et al., [https://xia.cs.cmu.edu/resources/Documents/Yin_sigcomm15.pdf A Control-Theoretic Approach for Dynamic Adaptive Video Streaming over HTTP], SIGCOMM 2015
-
-== Lec \#12: Zakir
-*Wed, May 8, Week 6*
-
-- Nick Sullivan, [https://blog.cloudflare.com/rfc-8446-aka-tls-1-3/ A Detailed Look at RFC 8446 (a.k.a. TLS 1.3)]
-- Adrian et al., [papers/imperfect-forward-secrecy-ccs15.pdf Imperfect Forward Secrecy: How Diffie-Hellman Fails in Practice]. CCS'15
-
-== Midterm
-*Mon, May 13, Week 7*
-
-- *[exams/midterm-2016.pdf Practice midterm]*
-- *[exams/midterm-2016-sol.pdf Practice midterm solutions]*
-
-== Lec \#14: ML for networks : Balaji Prabhakar
-*Wed, May 15, Week 7*
-
-- Y. Geng et al. [papers/nsdi18-geng.pdf Exploiting a Natural Network Effect for Scalable, Fine-grained Clock Synchronization]. NSDI '18
-
-== Lec \#15: Datacenters : Amin Vahdat
-*Mon, May 20, Week 8*
-- A. Singh et al. [papers/google-jupiter.pdf Jupiter Rising: A Decade of Clos Topologies and Centralized Control in Google’s Datacenter Network]. SIGCOMM '15
-
-== Lec \#16: Wireless : Sachin
-*Wed, May 22, Week 8*
-
-- Intermediate Project Reports due (11:59pm)
-- D. Aguayo et al. [papers/roofnet-meas.pdf Link-level Measurements from an 802.11b Mesh Network]. SIGCOMM '04
-
-== Holiday: Memorial Day
-*Mon, May 27, Week 9*
-- Memorial Day, No class
-
-== Lec \# 17: Ethics : Keith
-*Wed, May 29, Week 9*
-
-- S. Burnett and N. Feamster, [papers/p653.pdf Encore: Lightweight Measurement of Web Censorship], SIGCOMM '15
-- R. Ensafi et al. [papers/greatfirewall-imc2015.pdf Examining How the Great Firewall Discovers Hidden Circumvention Servers], IMC '15
-
-== Lec \#18: AUA & Student presentations
-*Mon, Jun 3, Week 10*
-
-- Please email us questions you would like answered and to sign-up for presentations. See [https://piazza.com/class/jtz3lgj71lu7mw?cid=88 Piazza] for more information.
-
-== Student presentations
-*Wed, Jun 5, Week 10*
-
-== Thursday, June 6, Week 10: Project writeups due
