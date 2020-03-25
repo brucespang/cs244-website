@@ -1,0 +1,50 @@
+<div id="schedule">
+  <!-- <tr> -->
+  <!--   <th class="week">Week</th> -->
+  <!--   <th>Tuesday</th> -->
+  <!--   <th>Thursday</th> -->
+  <!-- </tr> -->
+  {% for week in weeks %}
+  <!-- <tr> -->
+  <!-- <td class="week">{{ week['week'] }}</td> -->
+  <div class="week">
+    {% for day in week['days'] %}
+    <div class="day">
+      <h2>{{ day['parsed_date'].strftime("%-m/%-d") }} - {{ day['title'] }}</h2>
+      <div class="papers">
+        <h3>Papers</h3>
+        <ul>
+          {% if day['papers']|length == 0 %}
+          <li>No readings</li>
+          {% else %}
+          {% for paper in day['papers'] %}
+          <li>
+            <!-- {{ paper['authors'] }}, -->
+            <a href="{{paper['url']}}" class="title">{{paper['title']}}</a>
+            <!-- {% if paper['venue'] %}, {{paper['venue']}} {% endif %} -->
+            {% if paper['optional'] %} <span class="optional">(Optional)</span> {% endif %}
+            {% endfor %}
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="due">
+        <h3>Deadlines</h3>
+        <ul>
+          {% if day['due']|length == 0 %}
+          <li>Nothing due</li>
+          {% else %}
+          {% for due in day['due'] %}
+          <li>{{ due }}</li>
+          {% endfor %}
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <!-- </tr> -->
+  {% endfor %}
+</div>
+<div style="clear:both"></div>

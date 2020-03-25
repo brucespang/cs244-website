@@ -1,0 +1,63 @@
+- date: 4/7/2020
+  title: Introduction
+  speakers: Sachin and Nick
+  papers: 
+  due:
+    
+- date: 4/9/2020
+  title: Archiecture and Principles
+  speakers: Sachin
+  papers:
+    - authors: D. D. Clark
+      title: The Design Philosophy of the DARPA Internet Protocols
+      url: papers/DesignPhilosophyDARPA.pdf
+      venue: SIGCOMM 1988
+      optional: false
+    - authors: Barry M. Leiner et al.
+      title: A Brief History of the Internet
+      url: http://www.isoc.org/internet/history/brief.shtml
+      venue:
+      optional: true
+    - authors: Paul Baran
+      title: On Distributed Communications Networks
+      url: papers/DistributedCommunicationsNetworks.pdf
+      venue: IEEE Trans. Communications, 1964
+      optional: true
+  due:
+    - Paper critique
+    
+- date: 4/14/2020
+  title: Architecture and Principles
+  speakers: Sachin
+  papers:
+    - authors: J. H. Saltzer, D. P. Reed, D. D. Clark
+      title: End-to-End Arguments in System Design
+      url: papers/End2EndSystemDesign.pdf
+      venue: Distributed Computing Systems, 1981.
+      optional: false
+  due:
+    - Paper critique
+
+    
+- date: 4/16/2020
+  title: Congestion Control - TCP
+  speakers: Nick
+  papers:
+    - authors: V. Jacobson and M. J. Karels
+      url: papers/CongestionControl.pdf
+      title: Congestion Avoidance and Control
+      venue: SIGCOMM 1988
+      optional: false
+    - authors: B. Briscoe
+      url: papers/fair-ccr2007.pdf
+      title: "Flow Rate Fairness: Dismantling a Religion"
+      venue: SIGCOMM CCR 2007
+      optional: true
+  due:
+    - Paper critique
+
+# - date:
+#   title:
+#   speakers:
+#   papers:
+#   due:

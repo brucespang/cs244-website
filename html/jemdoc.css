@@ -369,3 +369,41 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
+#schedule {
+    width: 100%;
+    border: none;
+}
+
+#schedule .date {
+    margin-bottom: 0.5em;
+}
+
+#schedule ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+#schedule .week {
+    float: left;
+    clear: both;
+    width: 100%
+}
+
+#schedule .day {
+    float: left;
+    width: 450px;
+    margin-top: 1em;
+}
+
+#schedule h2 {
+    text-decoration: underline;
+    border: none;
+}
+
+#schedule h3 {
+    font-weight: bold;
+    padding-top: 0.75em;
+    color: black;
+}
+
