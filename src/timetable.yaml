@@ -57,9 +57,9 @@
     - Paper critique
 
 - date: 4/21/2020
-  title: TBD
-  speakers:
-  papers:
+  title: TBA
+  speakers: TBA
+  papers: TBA
   due:
 
 - date: 4/23/2020
@@ -129,7 +129,7 @@
 
 - date: 5/12/2020
   title: Security
-  speakers:
+  speakers: TBA
   papers:
     - authors: Nick Sullivan
       url: https://blog.cloudflare.com/rfc-8446-aka-tls-1-3/
@@ -144,7 +144,7 @@
 
 - date: 5/14/2020
   title: ML for Networking
-  speakers:
+  speakers: TBA
   papers:
     - authors: Mao et al.
       url: https://web.mit.edu/decima/content/sigcomm-2019.pdf
@@ -161,7 +161,7 @@
     
 - date: 5/21/2020
   title: Datacenters
-  speakers:
+  speakers: TBA
   papers:
     - authors: Singh et al.
       url: https://research.google/pubs/pub43837.pdf
@@ -173,35 +173,35 @@
 - date: 5/26/2020
   title: Wireless
   speakers: Sachin
-  papers: TBD
+  papers: TBA
   due:
     
 - date: 5/28/2020
   title: Network Function Virtualization
   speakers: Nick
-  papers: TBD
+  papers: TBA
   due:
     
 - date: 6/2/2020
   title: Edge Computing
-  speakers:
-  papers: TBD
+  speakers: TBA
+  papers: TBA
   due:
     
 - date: 6/4/2020
   title: Network Measurement
-  speakers:
-  papers: TBD
+  speakers: TBA
+  papers: TBA
   due:
     
 - date: 6/9/2020
   title: Final Project Presentations
-  speakers:
+  speakers: You!
   papers:
   due:
     
 - date: 6/11/2020
   title: Final Project Presentations
-  speakers:
+  speakers: You!
   papers:
   due:

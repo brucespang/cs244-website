@@ -11,6 +11,7 @@
     {% for day in week['days'] %}
     <div class="day">
       <h2>{{ day['parsed_date'].strftime("%-m/%-d") }} - {{ day['title'] }}</h2>
+      <p><strong>Speaker(s):</strong> {{ day['speakers'] }}</p>
       <div class="papers">
         <h3>Papers</h3>
         <ul>
