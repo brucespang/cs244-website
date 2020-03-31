@@ -57,9 +57,19 @@
     - Paper critique
 
 - date: 4/21/2020
-  title: TBA
-  speakers: TBA
-  papers: TBA
+  title: Congestion Control II
+  speakers: Keith Winstein
+  papers:
+    - authors: Yan et al.
+      url: https://www.usenix.org/system/files/conference/atc18/atc18-yan-francis.pdf
+      title: "Pantheon: the training ground for Internet congestion-control research"
+      venue: USENIX ATC 2018
+      optional: false
+    - authors: M. Schapira and K. Winstein
+      url: papers/hotnets17-congestion-control-throwdown.pdf
+      title: Congestion-Control Throwdown
+      venue: ACM HotNets 2017
+      optional: false
   due:
 
 - date: 4/23/2020
@@ -129,7 +139,7 @@
 
 - date: 5/12/2020
   title: Security
-  speakers: TBA
+  speakers: Zakir Durumeric
   papers:
     - authors: Nick Sullivan
       url: https://blog.cloudflare.com/rfc-8446-aka-tls-1-3/
