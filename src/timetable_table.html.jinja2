@@ -16,6 +16,8 @@
         <ul>
           {% if day['papers']|length == 0 %}
           <li>No readings</li>
+          {% elif day['papers'] is string %}
+          <li> {{ day['papers'] }} </li>
           {% else %}
           {% for paper in day['papers'] %}
           <li>
