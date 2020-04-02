@@ -9,8 +9,14 @@ table#tlayout {
 body {
 	background: white;
 	font-family: Georgia, serif;
+  font-size: 16px;
 	padding-bottom: 8px;
 	margin: 0;
+  max-width: 1000px;
+}
+
+p {
+    max-width: 800px;
 }
 
 #layout-menu {
@@ -42,7 +48,6 @@ body {
     background: white;
     text-align: left;
     vertical-align: top;
-    padding-left: 260px;
 }
 
 #layout-menu a {
@@ -371,6 +376,7 @@ table.imgtable, table.imgtable td {
 }
 
 #schedule {
+    clear: both;
     width: 100%;
     border: none;
 }
@@ -380,8 +386,12 @@ table.imgtable, table.imgtable td {
 }
 
 #schedule ul {
-    list-style-position: inside;
+    list-style: none;
     padding-left: 0;
+}
+
+#schedule .title {
+    font-weight: bold;
 }
 
 #schedule .week {
@@ -393,16 +403,24 @@ table.imgtable, table.imgtable td {
 #schedule .day {
     float: left;
     width: 450px;
-    margin-top: 1em;
+    margin-top: 2em;
+    padding-right: 2em;
+}
+
+#schedule .authors {
+    color: #666;
+    font-size: 90%;
 }
 
 #schedule h2 {
-    text-decoration: underline;
     border: none;
+    font-size: 110%;
+    color: black;
 }
 
 #schedule h3 {
     font-weight: bold;
+    font-size: 1em;
     padding-top: 0.75em;
     color: black;
 }

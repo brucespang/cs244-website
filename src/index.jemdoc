@@ -1,20 +1,6 @@
-# jemdoc: menu{MENU}{index.html}
 = CS244: Advanced Topics in Networking, Spring 2020
 
-Professors: *Sachin Katti* and *Nick McKeown*
-
-TA: *Bruce Spang*
-
-Lectures: *Tue, Thu 9:00AM - 10:20AM* at [https://campus-map.stanford.edu/?srch=380-380Y Building 380-380Y]
-
-Office Hours:
-- Sachin: TBD
-- Nick: TBD
-- Bruce: 10:30am-Noon Tuesdays in Gates 494 (or by appointment)
-
-= Course Description
-
-CS244 is a graduate course in computer networks. Spring 2020 marks the twelfth offering of this class.
+CS244 is a graduate course in computer networks. In this class we'll explore the principles and design decisions which underly the Internet. We'll explore the pros and cons of the current design, and give some thought to how we can make the Internet better in future.
 
 The goals for this class are:
 
@@ -22,78 +8,67 @@ The goals for this class are:
 - To gain some practice in reading research papers and critically understanding the research of others.
 - To gain experience with network programming using state-of-the-art research platforms.
 
-In the past two decades, the Internet has grown from a research tool to a fundamental part of society; something we all take for granted and use everyday. In this class we'll explore why the infrastructure was designed this way, and the underlying principles and design decisions. We'll explore the pros and cons of the current design, and give some thought to how we can make the Internet better in future.
+= Course Information
 
-*Looking for the reproducibility github wiki?* Find it [https://github.com/yanlisa/reproducibility/wiki/Reproducing-Network-Research here] or on the sidebar.
+*Professors:* [https://web.stanford.edu/~skatti/ *Sachin Katti*] and [http://yuba.stanford.edu/~nickm/ *Nick McKeown*]
 
-= About the Course
+*TA:* [htttp://brucespang.com Bruce Spang]
 
-== Requirements
-You must have taken CS 144, EE 284 or equivalent. If you have any doubt, ask for permission from Keith or Sachin. This background is essential before taking the class, as we'll read a lot papers quickly without time to catch up on the basics. The course assumes an understanding of topics in networking such as packet-switching, routing (distance vector and shortest path first), socket programming, and congestion control. You need an SUNetID to access the papers and print them.
+*Lectures:* Tue, Thu 9:00AM - 10:20AM on Zoom (link to the Zoom is on [https://canvas.stanford.edu/courses/116878 Canvas])
 
-If you want to refresh your background, the following textbooks might be useful:
-- J. Kurose and K. Ross, “Computer Networking: A Top-Down Approach”.
-- L. Peterson and B. Davie, “Computer Networks: A Systems Approach”.
+*Office Hours:*
+- Sachin: TBD
+- Nick: TBD
+- Bruce: TBD
 
-It will be helpful to be able to program in Python.
+*Communication:* We use [http://piazza.com/stanford/spring2020/cs244/home Piazza] for discussion.
 
-== Organization and Workload
+*Assignments:* All course assignments should be submitted via [https://canvas.stanford.edu/courses/116878 Canvas].
 
-The course is based on CS240 (Advanced Topics in Operating Systems). The class consists of two main activities:
+*Prerequisites:* This course assumes a basic understanding of topics in networking, such as packet-switching, routing, socket programming, and congestion control. It is also helpful to know how to program in Python. We suggest taking [http://cs144.stanford.edu/ CS 144], EE 284, or equivalent. For a refresher, you could look at the textbook "Computer Networking: A Top-Down Approach" by J. Kurose and K. Ross or "Computer Networks: A Systems Approach" by L. Peterson and B. Davie.
 
-. Papers and discussions: We will read 1-2 papers for each class (i.e. 2-4 papers per week), and discuss them in class. You will need to spend about 2 hours reading each paper, and making notes, to prepare you to discuss them in class. This only works if you come to class ready to discuss the papers in detail, which is why 15\% of your grade is for in-class participation. There will be as much as 10-15 hours of reading per week. Do not take this course unless you are willing and able to do a lot of reading.
-. Programming Assignments: You will do three programming assignments in Python (see sidebar for more information). The last assignment will be an open-ended project.
+= Schedule and Papers
+
+#includeraw{src/timetable_table.html}
+
+= Organization
+
+The class consists of two main activities:
+
+*Papers and discussions:* We will read 1-2 papers for each class (i.e. 2-4 papers per week), and discuss them in class. You will likely need to spend a few hours reading each paper and making notes, to prepare you to discuss them in class. This class only works if you come prepared to discuss the papers in detail, which is why 15\% of your grade is for in-class participation. Do not take this course unless you are willing and able to do a lot of reading.
+
+*Reproducing research:* You will do two projects which aim to reproduce a networking result: a guided assignment and an open-ended project. We've found that reproducing research results is a good way to get started doing networking research and contributing to the networking community.
+
+You can see example reproductions on the [https://reproducingnetworkresearch.wordpress.com/ Reproducing Network Research blog], or read more about learning networking by reproducing research in our [papers/learning-networking-research-by-reproducing.pdf paper].
 
 == Grading Policy
-The class is graded as follows:
 
-- *Reading and Participation: 35\%*
--- critiques before class (20\%)
--- in-class participation (15\%)
-- *Programming Assignments: 45\%*
--- p.a.1 (10%)
--- p.a.2 (10%)
--- p.a.3 (25%)
-- *Midterm: 20%*
+In keeping with Stanford's policy, we will be grading on a CR/NC basis for Spring 2020. If you would like to use the class as part of a breadth requirement, please email the course staff so we can explain how it will work.
 
 == Critiques
 
-Before each class, you must submit a short critique of the required readings. Each critique should be about a half a page and should roughly cover the following questions:
+Before each class, you must submit a short critique of the required readings on [https://canvas.stanford.edu/courses/116878 Canvas] (under the Quizzes tab). *Critiques will be accepted until 6pm* the night before class. Canvas will allow submissions a few minutes late, and these may or may not be graded.
 
-- What is the paper about? What is the issue the authors are trying to solve?
-- What was the state of the world before this paper? How did this change that?
-- How do the authors go about trying to solve the issue? What's the main idea? What are the paper's main contributions?
-- How did the authors do? Is the evaluation sound and unbiased? Are the authors’ results sufficiently justified in the paper?
-- Who does the issue/paper affect? Will this paper be relevant in 10 years, or alternatively, has the paper stood the test of time?
-- What do you think about the paper? Is it well written?
-
-Critiques will be submitted through Gradescope. Please use the code *MDXKZE* to sign up. Critiques will be accepted until *12am (midnight)* the night before class. This is the hard deadline. Gradescope will allow submissions a few minutes late and these may be graded at the whim of your TAs.
-
-It is not possible to make up for a missed critique so please do not email the staff for late day requests.
+There are prompts on Canvas to help frame your critique. As you read the paper, keep in mind that for the most part, these are classic, high-impact papers in networking. It's always possible to find flaws in a paper, and you will notice flaws in these papers, but it will be more interesting and rewarding to focus on their strengths.
 
 == In-class Participation
 
-Is class participation based solely on attendance? No. Attendance is a necessary but not sufficient condition for good class participation. The general policy is that a student will automatically receive a deduction of one letter grade for missing more than 3 lectures. We will not take official roll during lecture, but because we make the effort to know everyone in the class we will notice if a student is frequently absent. If you have any concerns about not being able to regularly attend class (e.g., you will have to miss several classes during the quarter) please discuss this as soon as possible with the course staff. Beyond attendance, we evaluate class participation by observing how prepared students are to discuss the covered paper when they come to class. This is not a trivial requirement because we expect papers to have been read thoroughly prior to lecture.
+Is class participation based solely on attendance? No. Attendance is a necessary but not sufficient condition for good class participation. We will not take official roll during lecture, but because we make the effort to know everyone in the class we will notice if a student is frequently absent. Beyond attendance, we evaluate class participation by observing how prepared students are to discuss the covered paper when they come to class.
+
+We understand that this will be an unusual and stressful quarter outside of class. You may be sick, have to take some time to deal with family or personal matters, may have internet problems, and so on. We will excuse absences, but please let us know about them in advance or as soon possible afterwards. If there's anything we can do to help you or accomodate your learning, please let us know!
 
 == Programming Assignments
 
-We will have three programming assignments throughout the quarter. Please see the assignment section for details on each assignment.
+We will have two programming assignments throughout the quarter.
 
 - *Programming Assignment 1:* TBA
-- *Programming Assignment 2:* TBA
-- *Final Project:* TBA
+- *Final Project:* Reproducing research. You and a partner will reproduce the main result from a recent networking paper. We will be posting your reproductions on the [https://reproducingnetworkresearch.wordpress.com/ Reproducing Network Research blog].
+
+You have *one free 24 hour extension* for either the programming assignment or final project. You must email the TA before the deadline. After this, if you hand in an assignment 0-24 hours late, you will lose 25\% of the grade. 24-48 hours late and you will lose 50\% of the grade. 48-72 hours late you will lose 75\% of the grade. After 72 hours you will receive a zero.
+
+If you have extenuating circumstances that result in an assignment being late, please let us know about them as soon as possible.
 
 == Exam
 
-There will be one midterm exam. We will release a practice exam later in the quarter. The exam will test your understanding of papers and topics covered so far in the class. The exam will be open notes and open papers, but closed laptop.
-
-== Late Policy
-
-We try hard to balance two constraints. On one hand, there are a lot of students in the class and we need to be strict about deadlines. If assignments are not turned in on time, it delays the grading of your work, and your TAs have to juggle grading different assignments at the same time. We've found that this makes the class unmanageable, and your TAs are left with less time to answer questions and help you with your assignments. On the other hand, emergencies happen from time to time. So here is the policy: If you hand in an assignment 0-24 hours late, you will lose 25\% of the grade. 24-48 hours late and you will lose 50\% of the grade. 48-72 hours late you will lose 75\% of the grade. After 72 hours you will receive a zero.
-
-Despite the tough stuff above, you have one free late of 24 hours for one programming assignment. You can use it whenever you wish, but you must email both the TAs before the deadline to use your free late. Just like above, the 24 hours is a hard deadline, with no further extensions. We hope this lets you manage your quarter.
-
-== Exceptional Circumstances
-
-Please do not ask TAs for extensions as they are not authorized to grant them. If you have a medical emergency, then email the instructor to request an extension. At times, there may be system problems with the computer cluster which may prevent you from completing your assignment on time. In these cases an extension will be granted to the entire class.
+There will be one midterm exam. We will release a practice exam later in the quarter. The exam will test your understanding of papers and topics covered so far in the class.
 

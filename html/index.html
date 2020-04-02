@@ -8,38 +8,11 @@
 <title>CS244: Advanced Topics in Networking, Spring 2020</title>
 </head>
 <body>
-<table summary="Table for page layout." id="tlayout">
-<tr valign="top">
-<td id="layout-menu">
-<div class="menu-item"><a href="index.html" class="current">CS244&nbsp;Home</a></div>
-<div class="menu-item"><a href="honorcode.html">Honor&nbsp;Code</a></div>
-<div class="menu-category">Paper Reading</div>
-<div class="menu-item"><a href="timetable.html">Schedule&nbsp;&amp;&nbsp;Papers</a></div>
-<div class="menu-item"><a href="critique.html">Critique&nbsp;Submission</a></div>
-<div class="menu-category">Misc</div>
-<div class="menu-item"><a href="http://piazza.com/stanford/spring2020/cs244/home">Discussion&nbsp;on&nbsp;Piazza</a></div>
-<div class="menu-item"><a href="staff.html">Staff</a></div>
-<div class="menu-item"><a href="https://github.com/yanlisa/reproducibility/wiki/Reproducing-Network-Research">Reproducibility&nbsp;Github</a></div>
-<div class="menu-item"><a href="http://reproducingnetworkresearch.wordpress.com/">Reproducing&nbsp;Network&nbsp;Research</a></div>
-</td>
-<td id="layout-content">
+<div id="layout-content">
 <div id="toptitle">
 <h1>CS244: Advanced Topics in Networking, Spring 2020</h1>
 </div>
-<p>Professors: <b>Sachin Katti</b> and <b>Nick McKeown</b></p>
-<p>TA: <b>Bruce Spang</b></p>
-<p>Lectures: <b>Tue, Thu 9:00AM - 10:20AM</b> at <a href="https://campus-map.stanford.edu/?srch=380-380Y">Building 380-380Y</a></p>
-<p>Office Hours:</p>
-<ul>
-<li><p>Sachin: TBD</p>
-</li>
-<li><p>Nick: TBD</p>
-</li>
-<li><p>Bruce: 10:30am-Noon Tuesdays in Gates 494 (or by appointment)</p>
-</li>
-</ul>
-<h1>Course Description</h1>
-<p>CS244 is a graduate course in computer networks. Spring 2020 marks the twelfth offering of this class.</p>
+<p>CS244 is a graduate course in computer networks. In this class we'll explore the principles and design decisions which underly the Internet. We'll explore the pros and cons of the current design, and give some thought to how we can make the Internet better in future.</p>
 <p>The goals for this class are:</p>
 <ul>
 <li><p>To become familiar with the state of the art in networking research: network architecture, protocols and systems.</p>
@@ -49,93 +22,563 @@
 <li><p>To gain experience with network programming using state-of-the-art research platforms.</p>
 </li>
 </ul>
-<p>In the past two decades, the Internet has grown from a research tool to a fundamental part of society; something we all take for granted and use everyday. In this class we'll explore why the infrastructure was designed this way, and the underlying principles and design decisions. We'll explore the pros and cons of the current design, and give some thought to how we can make the Internet better in future.</p>
-<p><b>Looking for the reproducibility github wiki?</b> Find it <a href="https://github.com/yanlisa/reproducibility/wiki/Reproducing-Network-Research">here</a> or on the sidebar.</p>
-<h1>About the Course</h1>
-<h2>Requirements</h2>
-<p>You must have taken CS 144, EE 284 or equivalent. If you have any doubt, ask for permission from Keith or Sachin. This background is essential before taking the class, as we'll read a lot papers quickly without time to catch up on the basics. The course assumes an understanding of topics in networking such as packet-switching, routing (distance vector and shortest path first), socket programming, and congestion control. You need an SUNetID to access the papers and print them.</p>
-<p>If you want to refresh your background, the following textbooks might be useful:</p>
+<h1>Course Information</h1>
+<p><b>Professors:</b> <a href="https://web.stanford.edu/~skatti/"><b>Sachin Katti</b></a> and <a href="http://yuba.stanford.edu/~nickm/"><b>Nick McKeown</b></a></p>
+<p><b>TA:</b> <a href="htttp://brucespang.com">Bruce Spang</a></p>
+<p><b>Lectures:</b> Tue, Thu 9:00AM - 10:20AM on Zoom (link to the Zoom is on <a href="https://canvas.stanford.edu/courses/116878">Canvas</a>)</p>
+<p><b>Office Hours:</b></p>
 <ul>
-<li><p>J. Kurose and K. Ross, “Computer Networking: A Top-Down Approach”.</p>
+<li><p>Sachin: TBD</p>
 </li>
-<li><p>L. Peterson and B. Davie, “Computer Networks: A Systems Approach”.</p>
+<li><p>Nick: TBD</p>
+</li>
+<li><p>Bruce: TBD</p>
 </li>
 </ul>
-<p>It will be helpful to be able to program in Python.</p>
-<h2>Organization and Workload</h2>
-<p>The course is based on CS240 (Advanced Topics in Operating Systems). The class consists of two main activities:</p>
-<ol>
-<li><p>Papers and discussions: We will read 1-2 papers for each class (i.e. 2-4 papers per week), and discuss them in class. You will need to spend about 2 hours reading each paper, and making notes, to prepare you to discuss them in class. This only works if you come to class ready to discuss the papers in detail, which is why 15% of your grade is for in-class participation. There will be as much as 10-15 hours of reading per week. Do not take this course unless you are willing and able to do a lot of reading.</p>
-</li>
-<li><p>Programming Assignments: You will do three programming assignments in Python (see sidebar for more information). The last assignment will be an open-ended project.</p>
-</li>
-</ol>
+<p><b>Communication:</b> We use <a href="http://piazza.com/stanford/spring2020/cs244/home">Piazza</a> for discussion.</p>
+<p><b>Assignments:</b> All course assignments should be submitted via <a href="https://canvas.stanford.edu/courses/116878">Canvas</a>.</p>
+<p><b>Prerequisites:</b> This course assumes a basic understanding of topics in networking, such as packet-switching, routing, socket programming, and congestion control. It is also helpful to know how to program in Python. We suggest taking <a href="http://cs144.stanford.edu/">CS 144</a>, EE 284, or equivalent. For a refresher, you could look at the textbook &ldquo;Computer Networking: A Top-Down Approach&rdquo; by J. Kurose and K. Ross or &ldquo;Computer Networks: A Systems Approach&rdquo; by L. Peterson and B. Davie.</p>
+<h1>Schedule and Papers</h1>
+<div id="schedule">
+  <!-- <tr> -->
+  <!--   <th class="week">Week</th> -->
+  <!--   <th>Tuesday</th> -->
+  <!--   <th>Thursday</th> -->
+  <!-- </tr> -->
+  
+  <!-- <tr> -->
+  <!-- <td class="week">1</td> -->
+  <div class="week">
+    
+    <div class="day">
+      <h2>4/7 - Introduction</h2>
+      
+      <p class="speakers"><strong>Speaker:</strong> Sachin and Nick</p>
+      
+      <div class="papers">
+        <ul>
+          
+          
+          <li>
+            <a href="papers/HowToReadPaper.pdf" class="title">How to Read a Paper</a>
+            
+            <p class="authors">S. Keshav</p>
+            
+          </li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+    <div class="day">
+      <h2>4/9 - Archiecture and Principles</h2>
+      
+      <p class="speakers"><strong>Speaker:</strong> Sachin</p>
+      
+      <div class="papers">
+        <ul>
+          
+          
+          <li>
+            <a href="papers/DesignPhilosophyDARPA.pdf" class="title">The Design Philosophy of the DARPA Internet Protocols</a>
+            
+            <p class="authors">D. D. Clark</p>
+            
+          <li>
+            <a href="http://www.isoc.org/internet/history/brief.shtml" class="title">A Brief History of the Internet</a>
+             <span class="optional">(Optional)</span> 
+            <p class="authors">B. Leiner, V. Cerf, D. Clark, R. Kahn, L. Kleinrock, D. Lynch, J. Postel, L. Roberts, S. Wolff</p>
+            
+          <li>
+            <a href="papers/DistributedCommunicationsNetworks.pdf" class="title">On Distributed Communications Networks</a>
+             <span class="optional">(Optional)</span> 
+            <p class="authors">P. Baran</p>
+            
+          </li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+  </div>
+  <!-- </tr> -->
+  
+  <!-- <tr> -->
+  <!-- <td class="week">2</td> -->
+  <div class="week">
+    
+    <div class="day">
+      <h2>4/14 - Architecture and Principles</h2>
+      
+      <p class="speakers"><strong>Speaker:</strong> Sachin</p>
+      
+      <div class="papers">
+        <ul>
+          
+          
+          <li>
+            <a href="papers/End2EndSystemDesign.pdf" class="title">End-to-End Arguments in System Design</a>
+            
+            <p class="authors">J. H. Saltzer, D. P. Reed, D. D. Clark</p>
+            
+          </li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+    <div class="day">
+      <h2>4/16 - Congestion Control</h2>
+      
+      <p class="speakers"><strong>Speaker:</strong> Nick</p>
+      
+      <div class="papers">
+        <ul>
+          
+          
+          <li>
+            <a href="papers/CongestionControl.pdf" class="title">Congestion Avoidance and Control</a>
+            
+            <p class="authors">V. Jacobson and M. J. Karels</p>
+            
+          <li>
+            <a href="papers/fair-ccr2007.pdf" class="title">Flow Rate Fairness: Dismantling a Religion</a>
+             <span class="optional">(Optional)</span> 
+            <p class="authors">B. Briscoe</p>
+            
+          </li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+  </div>
+  <!-- </tr> -->
+  
+  <!-- <tr> -->
+  <!-- <td class="week">3</td> -->
+  <div class="week">
+    
+    <div class="day">
+      <h2>4/21 - Congestion Control II</h2>
+      
+      <p class="speakers"><strong>Speaker:</strong> Keith Winstein</p>
+      
+      <div class="papers">
+        <ul>
+          
+          
+          <li>
+            <a href="https://www.usenix.org/system/files/conference/atc18/atc18-yan-francis.pdf" class="title">Pantheon: the training ground for Internet congestion-control research</a>
+            
+            <p class="authors">F. Yan, J. Ma, G. Hill, D. Raghavan, R. Wahby, P. Levis, K. Winstein</p>
+            
+          <li>
+            <a href="papers/hotnets17-congestion-control-throwdown.pdf" class="title">Congestion-Control Throwdown</a>
+            
+            <p class="authors">M. Schapira and K. Winstein</p>
+            
+          </li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+    <div class="day">
+      <h2>4/23 - Video Streaming</h2>
+      
+      <p class="speakers"><strong>Speaker:</strong> Sachin</p>
+      
+      <div class="papers">
+        <ul>
+          
+          
+          <li>
+            <a href="https://users.ece.cmu.edu/~vsekar/papers/sigcomm15_mpcdash.pdf" class="title">A Control-Theoretic Approach for Dynamic Adaptive Video Streaming over HTTP</a>
+            
+            <p class="authors">Yin et al.</p>
+            
+          </li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+  </div>
+  <!-- </tr> -->
+  
+  <!-- <tr> -->
+  <!-- <td class="week">4</td> -->
+  <div class="week">
+    
+    <div class="day">
+      <h2>4/28 - Switching</h2>
+      
+      <p class="speakers"><strong>Speaker:</strong> Nick</p>
+      
+      <div class="papers">
+        <ul>
+          
+          
+          <li>
+            <a href="papers/HighSpeedSwitchScheduling.pdf" class="title">High-speed Switch Scheduling for Local-area Networks</a>
+            
+            <p class="authors">T. Anderson et al.</p>
+            
+          </li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+    <div class="day">
+      <h2>4/30 - Programmable Forwarding</h2>
+      
+      <p class="speakers"><strong>Speaker:</strong> Nick</p>
+      
+      <div class="papers">
+        <ul>
+          
+          
+          <li>
+            <a href="papers/sdn-chip-sigcomm-2013.pdf" class="title">Forwarding metamorphosis: fast programmable match-action processing in hardware for SDN</a>
+            
+            <p class="authors">Bosshart et al.</p>
+            
+          </li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+  </div>
+  <!-- </tr> -->
+  
+  <!-- <tr> -->
+  <!-- <td class="week">5</td> -->
+  <div class="week">
+    
+    <div class="day">
+      <h2>5/5 - SDN</h2>
+      
+      <p class="speakers"><strong>Speaker:</strong> Nick</p>
+      
+      <div class="papers">
+        <ul>
+          
+          
+          <li>
+            <a href="papers/openflow.pdf" class="title">OpenFlow: Enabling Innovation in Campus Networks</a>
+            
+            <p class="authors">McKeown et al.</p>
+            
+          <li>
+            <a href="papers/network-virtualization-koponen-nsdi14.pdf" class="title">Network Virtualization in Multi-tenant Datacenters</a>
+            
+            <p class="authors">Koponen et al.</p>
+            
+          </li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+    <div class="day">
+      <h2>5/7 - Buffer Sizing</h2>
+      
+      <p class="speakers"><strong>Speaker:</strong> Sachin</p>
+      
+      <div class="papers">
+        <ul>
+          
+          
+          <li>
+            <a href="papers/SizingRouterBuffersAppenzeller.pdf" class="title">Sizing Router Buffers</a>
+            
+            <p class="authors">G. Appenzeller et al.</p>
+            
+          <li>
+            <a href="papers/sizing-router-buffers-redux.pdf" class="title">Sizing Router Buffers (Redux)</a>
+            
+            <p class="authors">McKeown et al.</p>
+            
+          </li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+  </div>
+  <!-- </tr> -->
+  
+  <!-- <tr> -->
+  <!-- <td class="week">6</td> -->
+  <div class="week">
+    
+    <div class="day">
+      <h2>5/12 - Security</h2>
+      
+      <p class="speakers"><strong>Speaker:</strong> Zakir Durumeric</p>
+      
+      <div class="papers">
+        <ul>
+          
+          
+          <li>
+            <a href="https://blog.cloudflare.com/rfc-8446-aka-tls-1-3/" class="title">A Detailed Look at RFC 8446 (a.k.a. TLS 1.3)</a>
+            
+            <p class="authors">Nick Sullivan</p>
+            
+          <li>
+            <a href="papers/imperfect-forward-secrecy-ccs15.pdf" class="title">Imperfect Forward Secrecy: How Diffie-Hellman Fails in Practice</a>
+            
+            <p class="authors">Adrian et al.</p>
+            
+          </li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+    <div class="day">
+      <h2>5/14 - ML for Networking</h2>
+      
+      <p class="speakers"><strong>Speaker:</strong> TBA</p>
+      
+      <div class="papers">
+        <ul>
+          
+          
+          <li>
+            <a href="https://web.mit.edu/decima/content/sigcomm-2019.pdf" class="title">Learning Scheduling Algorithms for Data Processing Clusters</a>
+            
+            <p class="authors">Mao et al.</p>
+            
+          </li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+  </div>
+  <!-- </tr> -->
+  
+  <!-- <tr> -->
+  <!-- <td class="week">7</td> -->
+  <div class="week">
+    
+    <div class="day">
+      <h2>5/19 - Midterm</h2>
+      
+      <div class="papers">
+        <ul>
+          
+          <li>No readings</li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+    <div class="day">
+      <h2>5/21 - Datacenters</h2>
+      
+      <p class="speakers"><strong>Speaker:</strong> Arjun Singh</p>
+      
+      <div class="papers">
+        <ul>
+          
+          
+          <li>
+            <a href="https://research.google/pubs/pub43837.pdf" class="title">Jupiter Rising: A Decade of Clos Topologies and Centralized Control in Google's Datacenter Network</a>
+            
+            <p class="authors">Singh et al.</p>
+            
+          </li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+  </div>
+  <!-- </tr> -->
+  
+  <!-- <tr> -->
+  <!-- <td class="week">8</td> -->
+  <div class="week">
+    
+    <div class="day">
+      <h2>5/26 - Wireless</h2>
+      
+      <p class="speakers"><strong>Speaker:</strong> Sachin</p>
+      
+      <div class="papers">
+        <ul>
+          
+          <li> TBA </li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+    <div class="day">
+      <h2>5/28 - Network Function Virtualization</h2>
+      
+      <p class="speakers"><strong>Speaker:</strong> Nick</p>
+      
+      <div class="papers">
+        <ul>
+          
+          <li> TBA </li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+  </div>
+  <!-- </tr> -->
+  
+  <!-- <tr> -->
+  <!-- <td class="week">9</td> -->
+  <div class="week">
+    
+    <div class="day">
+      <h2>6/2 - Edge Computing</h2>
+      
+      <p class="speakers"><strong>Speaker:</strong> TBA</p>
+      
+      <div class="papers">
+        <ul>
+          
+          <li> TBA </li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+    <div class="day">
+      <h2>6/4 - Network Measurement</h2>
+      
+      <p class="speakers"><strong>Speaker:</strong> TBA</p>
+      
+      <div class="papers">
+        <ul>
+          
+          <li> TBA </li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+  </div>
+  <!-- </tr> -->
+  
+  <!-- <tr> -->
+  <!-- <td class="week">10</td> -->
+  <div class="week">
+    
+    <div class="day">
+      <h2>6/9 - Final Project Presentations</h2>
+      
+      <p class="speakers"><strong>Speaker:</strong> You!</p>
+      
+      <div class="papers">
+        <ul>
+          
+          <li>No readings</li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+    <div class="day">
+      <h2>6/11 - Final Project Presentations</h2>
+      
+      <p class="speakers"><strong>Speaker:</strong> You!</p>
+      
+      <div class="papers">
+        <ul>
+          
+          <li>No readings</li>
+          
+        </ul>
+      </div>
+
+      
+    </div>
+    
+  </div>
+  <!-- </tr> -->
+  
+</div>
+<div style="clear:both"></div>
+<h1>Organization</h1>
+<p>The class consists of two main activities:</p>
+<p><b>Papers and discussions:</b> We will read 1-2 papers for each class (i.e. 2-4 papers per week), and discuss them in class. You will likely need to spend a few hours reading each paper and making notes, to prepare you to discuss them in class. This class only works if you come prepared to discuss the papers in detail, which is why 15% of your grade is for in-class participation. Do not take this course unless you are willing and able to do a lot of reading.</p>
+<p><b>Reproducing research:</b> You will do two projects which aim to reproduce a networking result: a guided assignment and an open-ended project. We've found that reproducing research results is a good way to get started doing networking research and contributing to the networking community.</p>
+<p>You can see example reproductions on the <a href="https://reproducingnetworkresearch.wordpress.com/">Reproducing Network Research blog</a>, or read more about learning networking by reproducing research in our <a href="papers/learning-networking-research-by-reproducing.pdf">paper</a>.</p>
 <h2>Grading Policy</h2>
-<p>The class is graded as follows:</p>
-<ul>
-<li><p><b>Reading and Participation: 35%</b></p>
-<ul>
-<li><p>critiques before class (20%)</p>
-</li>
-<li><p>in-class participation (15%)</p>
-</li></ul>
-</li>
-<li><p><b>Programming Assignments: 45%</b></p>
-<ul>
-<li><p>p.a.1 (10%)</p>
-</li>
-<li><p>p.a.2 (10%)</p>
-</li>
-<li><p>p.a.3 (25%)</p>
-</li></ul>
-</li>
-<li><p><b>Midterm: 20%</b></p>
-</li>
-</ul>
+<p>In keeping with Stanford's policy, we will be grading on a CR/NC basis for Spring 2020. If you would like to use the class as part of a breadth requirement, please email the course staff so we can explain how it will work.</p>
 <h2>Critiques</h2>
-<p>Before each class, you must submit a short critique of the required readings. Each critique should be about a half a page and should roughly cover the following questions:</p>
-<ul>
-<li><p>What is the paper about? What is the issue the authors are trying to solve?</p>
-</li>
-<li><p>What was the state of the world before this paper? How did this change that?</p>
-</li>
-<li><p>How do the authors go about trying to solve the issue? What's the main idea? What are the paper's main contributions?</p>
-</li>
-<li><p>How did the authors do? Is the evaluation sound and unbiased? Are the authors’ results sufficiently justified in the paper?</p>
-</li>
-<li><p>Who does the issue/paper affect? Will this paper be relevant in 10 years, or alternatively, has the paper stood the test of time?</p>
-</li>
-<li><p>What do you think about the paper? Is it well written?</p>
-</li>
-</ul>
-<p>Critiques will be submitted through Gradescope. Please use the code <b>MDXKZE</b> to sign up. Critiques will be accepted until <b>12am (midnight)</b> the night before class. This is the hard deadline. Gradescope will allow submissions a few minutes late and these may be graded at the whim of your TAs.</p>
-<p>It is not possible to make up for a missed critique so please do not email the staff for late day requests.</p>
+<p>Before each class, you must submit a short critique of the required readings on <a href="https://canvas.stanford.edu/courses/116878">Canvas</a> (under the Quizzes tab). <b>Critiques will be accepted until 6pm</b> the night before class. Canvas will allow submissions a few minutes late, and these may or may not be graded.</p>
+<p>There are prompts on Canvas to help frame your critique. As you read the paper, keep in mind that for the most part, these are classic, high-impact papers in networking. It's always possible to find flaws in a paper, and you will notice flaws in these papers, but it will be more interesting and rewarding to focus on their strengths.</p>
 <h2>In-class Participation</h2>
-<p>Is class participation based solely on attendance? No. Attendance is a necessary but not sufficient condition for good class participation. The general policy is that a student will automatically receive a deduction of one letter grade for missing more than 3 lectures. We will not take official roll during lecture, but because we make the effort to know everyone in the class we will notice if a student is frequently absent. If you have any concerns about not being able to regularly attend class (e.g., you will have to miss several classes during the quarter) please discuss this as soon as possible with the course staff. Beyond attendance, we evaluate class participation by observing how prepared students are to discuss the covered paper when they come to class. This is not a trivial requirement because we expect papers to have been read thoroughly prior to lecture.</p>
+<p>Is class participation based solely on attendance? No. Attendance is a necessary but not sufficient condition for good class participation. We will not take official roll during lecture, but because we make the effort to know everyone in the class we will notice if a student is frequently absent. Beyond attendance, we evaluate class participation by observing how prepared students are to discuss the covered paper when they come to class.</p>
+<p>We understand that this will be an unusual and stressful quarter outside of class. You may be sick, have to take some time to deal with family or personal matters, may have internet problems, and so on. We will excuse absences, but please let us know about them in advance or as soon possible afterwards. If there's anything we can do to help you or accomodate your learning, please let us know!</p>
 <h2>Programming Assignments</h2>
-<p>We will have three programming assignments throughout the quarter. Please see the assignment section for details on each assignment.</p>
+<p>We will have two programming assignments throughout the quarter.</p>
 <ul>
 <li><p><b>Programming Assignment 1:</b> TBA</p>
 </li>
-<li><p><b>Programming Assignment 2:</b> TBA</p>
-</li>
-<li><p><b>Final Project:</b> TBA</p>
+<li><p><b>Final Project:</b> Reproducing research. You and a partner will reproduce the main result from a recent networking paper. We will be posting your reproductions on the <a href="https://reproducingnetworkresearch.wordpress.com/">Reproducing Network Research blog</a>.</p>
 </li>
 </ul>
+<p>You have <b>one free 24 hour extension</b> for either the programming assignment or final project. You must email the TA before the deadline. After this, if you hand in an assignment 0-24 hours late, you will lose 25% of the grade. 24-48 hours late and you will lose 50% of the grade. 48-72 hours late you will lose 75% of the grade. After 72 hours you will receive a zero.</p>
+<p>If you have extenuating circumstances that result in an assignment being late, please let us know about them as soon as possible.</p>
 <h2>Exam</h2>
-<p>There will be one midterm exam. We will release a practice exam later in the quarter. The exam will test your understanding of papers and topics covered so far in the class. The exam will be open notes and open papers, but closed laptop.</p>
-<h2>Late Policy</h2>
-<p>We try hard to balance two constraints. On one hand, there are a lot of students in the class and we need to be strict about deadlines. If assignments are not turned in on time, it delays the grading of your work, and your TAs have to juggle grading different assignments at the same time. We've found that this makes the class unmanageable, and your TAs are left with less time to answer questions and help you with your assignments. On the other hand, emergencies happen from time to time. So here is the policy: If you hand in an assignment 0-24 hours late, you will lose 25% of the grade. 24-48 hours late and you will lose 50% of the grade. 48-72 hours late you will lose 75% of the grade. After 72 hours you will receive a zero.</p>
-<p>Despite the tough stuff above, you have one free late of 24 hours for one programming assignment. You can use it whenever you wish, but you must email both the TAs before the deadline to use your free late. Just like above, the 24 hours is a hard deadline, with no further extensions. We hope this lets you manage your quarter.</p>
-<h2>Exceptional Circumstances</h2>
-<p>Please do not ask TAs for extensions as they are not authorized to grant them. If you have a medical emergency, then email the instructor to request an extension. At times, there may be system problems with the computer cluster which may prevent you from completing your assignment on time. In these cases an extension will be granted to the entire class.</p>
+<p>There will be one midterm exam. We will release a practice exam later in the quarter. The exam will test your understanding of papers and topics covered so far in the class.</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2020-03-10 10:06:44 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2020-04-01 17:09:51 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
-</td>
-</tr>
-</table>
+</div>
 </body>
 </html>

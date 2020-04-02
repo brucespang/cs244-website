@@ -1,7 +1,11 @@
 - date: 4/7/2020
   title: Introduction
   speakers: Sachin and Nick
-  papers: 
+  papers:
+    - authors: S. Keshav
+      title: How to Read a Paper
+      url: papers/HowToReadPaper.pdf
+      optional: false
   due:
     
 - date: 4/9/2020
@@ -13,18 +17,17 @@
       url: papers/DesignPhilosophyDARPA.pdf
       venue: SIGCOMM 1988
       optional: false
-    - authors: Barry M. Leiner et al.
+    - authors: B. Leiner, V. Cerf, D. Clark, R. Kahn, L. Kleinrock, D. Lynch, J. Postel, L. Roberts, S. Wolff
       title: A Brief History of the Internet
       url: http://www.isoc.org/internet/history/brief.shtml
       venue:
       optional: true
-    - authors: Paul Baran
+    - authors: P. Baran
       title: On Distributed Communications Networks
       url: papers/DistributedCommunicationsNetworks.pdf
       venue: IEEE Trans. Communications, 1964
       optional: true
   due:
-    - Paper critique
     
 - date: 4/14/2020
   title: Architecture and Principles
@@ -36,7 +39,6 @@
       venue: Distributed Computing Systems, 1981.
       optional: false
   due:
-    - Paper critique
 
     
 - date: 4/16/2020
@@ -54,13 +56,12 @@
       venue: SIGCOMM CCR 2007
       optional: true
   due:
-    - Paper critique
 
 - date: 4/21/2020
   title: Congestion Control II
   speakers: Keith Winstein
   papers:
-    - authors: Yan et al.
+    - authors: F. Yan, J. Ma, G. Hill, D. Raghavan, R. Wahby, P. Levis, K. Winstein
       url: https://www.usenix.org/system/files/conference/atc18/atc18-yan-francis.pdf
       title: "Pantheon: the training ground for Internet congestion-control research"
       venue: USENIX ATC 2018
@@ -171,7 +172,7 @@
     
 - date: 5/21/2020
   title: Datacenters
-  speakers: TBA
+  speakers: Arjun Singh
   papers:
     - authors: Singh et al.
       url: https://research.google/pubs/pub43837.pdf
