@@ -1,7 +1,0 @@
-# jemdoc: menu{MENU}{timetable.html}
-= Schedule and Papers
-
-- Guidelines on how to read a paper can be found [papers/HowtoReadPaper.pdf here].
-- Papers are by default in the 'Read deep' category, unless they are marked as 'Optional'.
-
-#includeraw{src/timetable_table.html}
