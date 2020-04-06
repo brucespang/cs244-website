@@ -4,12 +4,12 @@
   papers:
     - authors: S. Keshav
       title: How to Read a Paper
-      url: papers/HowToReadPaper.pdf
+      url: papers/HowtoReadPaper.pdf
       optional: true
   due:
     
 - date: 4/9/2020
-  title: Archiecture and Principles
+  title: Architecture and Principles
   speakers: Sachin
   papers:
     - authors: D. D. Clark
@@ -171,7 +171,7 @@
   due:
     
 - date: 5/21/2020
-  title: Datacenters
+  title: Data centers
   speakers: Arjun Singh
   papers:
     - authors: Singh et al.
