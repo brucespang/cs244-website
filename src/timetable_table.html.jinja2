@@ -12,7 +12,12 @@
     <div class="day">
       <h2>{{ day['parsed_date'].strftime("%-m/%-d") }} - {{ day['title'] }}</h2>
       {% if day['speakers'] %}
-      <p class="speakers"><strong>Speaker:</strong> {{ day['speakers'] }}</p>
+      <p class="speakers">
+        <strong>Speaker:</strong> {{ day['speakers'] }}
+        {% if day['slides'] %}
+        [<a href="{{ day['slides'] }}">Slides</a>]
+        {% endif %}
+      </p>
       {% endif %}
       <div class="papers">
         <ul>
