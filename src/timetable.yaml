@@ -29,6 +29,7 @@
       venue: IEEE Trans. Communications, 1964
       optional: true
   due:
+    - <a href="https://docs.google.com/document/d/1vYp_pjUhnYvBnKkvGeUV7yh6g3UndBrVRNcMLRtMEw4/edit?usp=sharing">Assignment 1</a> released, due Monday, April 27 at 5pm
     
 - date: 4/14/2020
   title: Architecture and Principles
@@ -84,6 +85,7 @@
       venue: SIGCOMM 2015
       optional: false
   due:
+    - <a href="https://docs.google.com/document/d/1vYp_pjUhnYvBnKkvGeUV7yh6g3UndBrVRNcMLRtMEw4/edit?usp=sharing">Assignment 1</a> due next Monday, April 27 at 5pm
 
 - date: 4/28/2020
   title: Switching

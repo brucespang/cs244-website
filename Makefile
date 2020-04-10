@@ -20,3 +20,7 @@ $(HTML)/index.html: src/index.jemdoc src/timetable_table.html
 
 $(HTML)/%.html: $(SRC)/%.jemdoc MENU
 	./jemdoc.py -o $@ $<
+
+.PHONY: deploy
+deploy:
+	sshpass -p $PASSWD theory.stanford.edu "cd /afs/.ir/users/b/s/bspang/cs244/cs244-website && git pull"
