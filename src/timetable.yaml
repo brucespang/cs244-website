@@ -12,6 +12,7 @@
 - date: 4/9/2020
   title: Architecture and Principles
   speakers: Sachin
+  slides: slides/Lecture_02_2020.pdf
   papers:
     - authors: D. D. Clark
       title: The Design Philosophy of the DARPA Internet Protocols
