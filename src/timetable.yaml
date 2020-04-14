@@ -77,18 +77,6 @@
   due:
 
 - date: 4/23/2020
-  title: Video Streaming
-  speakers: Sachin
-  papers:
-    - authors: Yin et al.
-      url: https://users.ece.cmu.edu/~vsekar/papers/sigcomm15_mpcdash.pdf
-      title: A Control-Theoretic Approach for Dynamic Adaptive Video Streaming over HTTP
-      venue: SIGCOMM 2015
-      optional: false
-  due:
-    - <a href="https://docs.google.com/document/d/1vYp_pjUhnYvBnKkvGeUV7yh6g3UndBrVRNcMLRtMEw4/edit?usp=sharing">Assignment 1</a> due next Monday, April 27 at 5pm
-
-- date: 4/28/2020
   title: Switching
   speakers: Nick
   papers:
@@ -98,8 +86,9 @@
       venue: ACM Trans. Computer Systems, 1993
       optional: false
   due:
+    - <a href="https://docs.google.com/document/d/1vYp_pjUhnYvBnKkvGeUV7yh6g3UndBrVRNcMLRtMEw4/edit?usp=sharing">Assignment 1</a> due next Monday, April 27 at 5pm
 
-- date: 4/30/2020
+- date: 4/28/2020
   title: Programmable Forwarding
   speakers: Nick
   papers:
@@ -110,7 +99,7 @@
       optional: false
   due:
 
-- date: 5/5/2020
+- date: 4/30/2020
   title: SDN
   speakers: Nick
   papers:
@@ -126,9 +115,29 @@
       optional: false
   due:
 
+- date: 5/5/2020
+  title: SDN II
+  speakers: Nick
+  papers:
+    - authors: M. Casado, M. Freedman, J. Pettit, J. Luo, N. McKeown, S. Shenker
+      url: papers/Ethane.pdf
+      title: "Ethane: Taking Control of the Enterprise"
+      venue: SIGCOMM 2007
+      optional: false
+    - authors: M. Casado, N. McKeown, S. Shenker
+      title: From Ethane to SDN and Beyond
+      url: papers/ethane_to_sdn_and_beyond.pdf
+      venue: CCR 2019
+      optional: true
+    - authors: Larry Peterson
+      title: "Software-Defined Networks: A Systems Approach"
+      url: https://sdn.systemsapproach.org/
+      optional: true
+  due:    
+
 - date: 5/7/2020
   title: Buffer Sizing
-  speakers: Sachin
+  speakers: Tom Edsall
   papers:
     - authors: G. Appenzeller et al.
       url: papers/SizingRouterBuffersAppenzeller.pdf
@@ -192,8 +201,8 @@
   due:
     
 - date: 5/28/2020
-  title: Network Function Virtualization
-  speakers: Nick
+  title: Wireless II
+  speakers: Sachin
   papers: TBA
   due:
     
@@ -205,8 +214,13 @@
     
 - date: 6/4/2020
   title: Network Measurement
-  speakers: TBA
-  papers: TBA
+  speakers: Nick
+  papers:
+    - authors: B. Krishnamurthy, W. Willinger, P. Gill, M. Arlitt
+      url: papers/comcom2011.pdf
+      title: A Socratic method for validation of measurement-based networking research
+      venue: Computer Communications 2011
+      optional: false
   due:
     
 - date: 6/9/2020
