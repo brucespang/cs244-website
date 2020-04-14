@@ -103,15 +103,15 @@
   title: SDN
   speakers: Nick
   papers:
-    - authors: McKeown et al.
+    - authors: N. McKeown, T. Anderson, H. Balakrishnan, G. Parulkar, L. Peterson, J. Rexford, S. Shenker, J. Turner
       url: papers/openflow.pdf
       title: "OpenFlow: Enabling Innovation in Campus Networks"
       venue: ACM CCR April 2008
       optional: false
-    - authors: Koponen et al.
-      url: papers/network-virtualization-koponen-nsdi14.pdf
-      title: Network Virtualization in Multi-tenant Datacenters
-      venue: NSDI 2014
+    - authors: M. Casado, M. Freedman, J. Pettit, J. Luo, N. McKeown, S. Shenker
+      url: papers/Ethane.pdf
+      title: "Ethane: Taking Control of the Enterprise"
+      venue: SIGCOMM 2007
       optional: false
   due:
 
@@ -119,19 +119,15 @@
   title: SDN II
   speakers: Nick
   papers:
-    - authors: M. Casado, M. Freedman, J. Pettit, J. Luo, N. McKeown, S. Shenker
-      url: papers/Ethane.pdf
-      title: "Ethane: Taking Control of the Enterprise"
-      venue: SIGCOMM 2007
+    - authors: Koponen et al.
+      url: papers/network-virtualization-koponen-nsdi14.pdf
+      title: Network Virtualization in Multi-tenant Datacenters
+      venue: NSDI 2014
       optional: false
     - authors: M. Casado, N. McKeown, S. Shenker
       title: From Ethane to SDN and Beyond
       url: papers/ethane_to_sdn_and_beyond.pdf
       venue: CCR 2019
-      optional: true
-    - authors: Larry Peterson
-      title: "Software-Defined Networks: A Systems Approach"
-      url: https://sdn.systemsapproach.org/
       optional: true
   due:    
 
