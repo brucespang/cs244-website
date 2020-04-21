@@ -35,6 +35,7 @@
 - date: 4/14/2020
   title: Architecture and Principles
   speakers: Sachin
+  slides: slides/Lecture_03_2020.pdf
   papers:
     - authors: J. H. Saltzer, D. P. Reed, D. D. Clark
       title: End-to-End Arguments in System Design
@@ -47,6 +48,7 @@
 - date: 4/16/2020
   title: Congestion Control
   speakers: Nick
+  slides: slides/Lecture_04_2020.pdf
   papers:
     - authors: V. Jacobson and M. J. Karels
       url: papers/CongestionControl.pdf
