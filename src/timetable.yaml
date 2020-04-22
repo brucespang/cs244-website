@@ -65,6 +65,7 @@
 - date: 4/21/2020
   title: Congestion Control II
   speakers: Keith Winstein
+  slides: slides/Lecture_05_2020.pdf
   papers:
     - authors: F. Yan, J. Ma, G. Hill, D. Raghavan, R. Wahby, P. Levis, K. Winstein
       url: https://www.usenix.org/system/files/conference/atc18/atc18-yan-francis.pdf
