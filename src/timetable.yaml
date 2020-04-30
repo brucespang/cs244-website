@@ -82,6 +82,11 @@
 - date: 4/23/2020
   title: Switching
   speakers: Nick
+  slides:
+    - url: slides/Lecture_06_2020.pptx
+      text: Slides (ppt)
+    - url: slides/Lecture_06_2020.pdf
+      text: Slides (pdf)
   papers:
     - authors: T. Anderson et al.
       url: papers/HighSpeedSwitchScheduling.pdf
@@ -94,6 +99,11 @@
 - date: 4/28/2020
   title: Programmable Forwarding
   speakers: Nick
+  slides:
+    - url: slides/Lecture_07_2020.pptx
+      text: Slides (ppt)
+    - url: slides/Lecture_07_2020.pdf
+      text: Slides (pdf)
   papers:
     - authors: Bosshart et al.
       url: papers/sdn-chip-sigcomm-2013.pdf

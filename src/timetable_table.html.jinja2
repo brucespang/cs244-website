@@ -15,7 +15,15 @@
       <p class="speakers">
         <strong>Speaker:</strong> {{ day['speakers'] }}
         {% if day['slides'] %}
+        
+        {% if day['slides'] is string %}    
         [<a href="{{ day['slides'] }}">Slides</a>]
+        {% else %}
+        {% for slide in day['slides'] %}
+        [<a href="{{ slide['url'] }}">{{ slide['text'] }}</a>]
+        {% endfor %}
+        {% endif %}
+        
         {% endif %}
       </p>
       {% endif %}
