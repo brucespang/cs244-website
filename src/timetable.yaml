@@ -115,6 +115,11 @@
 - date: 4/30/2020
   title: SDN
   speakers: Nick
+  slides:
+    - url: slides/Lecture_08_2020.pptx
+      text: Slides (ppt)
+    - url: slides/Lecture_08_2020.pdf
+      text: Slides (pdf)
   papers:
     - authors: N. McKeown, T. Anderson, H. Balakrishnan, G. Parulkar, L. Peterson, J. Rexford, S. Shenker, J. Turner
       url: papers/openflow.pdf
