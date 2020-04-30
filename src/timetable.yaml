@@ -126,7 +126,8 @@
       title: "Ethane: Taking Control of the Enterprise"
       venue: SIGCOMM 2007
       optional: false
-  due:
+  due:    
+    - <a href="https://docs.google.com/document/d/1OzsZSJRvYtyYPAzdgqpE9O6DNGyubywVW8mJuvaJJ6I/edit?usp=sharing">Final project proposal</a> due next Monday, May 4th at 11:59pm
 
 - date: 5/5/2020
   title: SDN II
@@ -142,7 +143,7 @@
       url: papers/ethane_to_sdn_and_beyond.pdf
       venue: CCR 2019
       optional: true
-  due:    
+  due:
 
 - date: 5/7/2020
   title: Buffer Sizing
@@ -201,7 +202,9 @@
       title: "Jupiter Rising: A Decade of Clos Topologies and Centralized Control in Google's Datacenter Network"
       venue: SIGCOMM 2015
       optional: false
-  due:
+  due:    
+    - <a href="https://docs.google.com/document/d/1OzsZSJRvYtyYPAzdgqpE9O6DNGyubywVW8mJuvaJJ6I/edit?usp=sharing">Intermediate progress report</a> due tomorrow Friday, May 22nd at 11:59pm
+
     
 - date: 5/26/2020
   title: Wireless
@@ -242,4 +245,5 @@
   title: Final Project Presentations
   speakers: You!
   papers:
-  due:
+  due:    
+    - <a href="https://docs.google.com/document/d/1OzsZSJRvYtyYPAzdgqpE9O6DNGyubywVW8mJuvaJJ6I/edit?usp=sharing">Final report</a> due at 5pm
