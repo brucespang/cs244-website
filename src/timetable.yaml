@@ -230,13 +230,13 @@
   due:
     
 - date: 6/4/2020
-  title: Network Measurement
+  title: Video Streaming
   speakers: Nick
   papers:
-    - authors: B. Krishnamurthy, W. Willinger, P. Gill, M. Arlitt
-      url: papers/comcom2011.pdf
-      title: A Socratic method for validation of measurement-based networking research
-      venue: Computer Communications 2011
+    - authors: TY Huang, R. Johari, N. McKeown, M. Trunnell, M. Watson
+      url: papers/sigcomm2014-video.pdf
+      title: "A Buffer-Based Approach to Rate Adaptation: Evidence from a Large Video Streaming Service"
+      venue: SIGCOMM 2014
       optional: false
   due:
     
