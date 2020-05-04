@@ -182,13 +182,13 @@
   due:
 
 - date: 5/14/2020
-  title: ML for Networking
-  speakers: TBA
+  title: Edge Networking
+  speakers: Sachin
   papers:
-    - authors: Mao et al.
-      url: https://web.mit.edu/decima/content/sigcomm-2019.pdf
-      title: Learning Scheduling Algorithms for Data Processing Clusters
-      venue: SIGCOMM 2019
+    - authors: K.K. Yap et al.
+      url: papers/espresso.pdf
+      title: "Taking the Edge off with Espresso: Scale, Reliability and Programmability for Global Internet Peering"
+      venue: SIGCOMM 2017
       optional: false
   due:
 
@@ -214,7 +214,12 @@
 - date: 5/26/2020
   title: Wireless
   speakers: Sachin
-  papers: TBA
+  papers:
+    - authors: J. Bicket, D. Aguayo, S. Biswas, R. Morris
+      url: papers/roofnet.pdf
+      title: "Architecture and Evaluation of an Unplanned 802.11b Mesh Network"
+      venue: MobiCom 2005
+      optional: false
   due:
     
 - date: 5/28/2020
@@ -224,9 +229,14 @@
   due:
     
 - date: 6/2/2020
-  title: Edge Computing
-  speakers: TBA
-  papers: TBA
+  title: ML for Networking
+  speakers: Mohammad Alizadeh
+  papers:
+    - authors: H. Mao, M. Schwarzkopf, S.B. Venkatakrishnan, Z. Meng, M. Alizadeh
+      url: https://web.mit.edu/decima/content/sigcomm-2019.pdf
+      title: Learning Scheduling Algorithms for Data Processing Clusters
+      venue: SIGCOMM 2019
+      optional: false
   due:
     
 - date: 6/4/2020
