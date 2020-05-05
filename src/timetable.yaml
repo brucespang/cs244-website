@@ -152,7 +152,7 @@
 
 - date: 5/7/2020
   title: Buffer Sizing
-  speakers: Tom Edsall
+  speakers: Nick
   papers:
     - authors: G. Appenzeller et al.
       url: papers/SizingRouterBuffersAppenzeller.pdf
