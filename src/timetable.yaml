@@ -137,6 +137,11 @@
 - date: 5/5/2020
   title: SDN II
   speakers: Nick
+  slides:
+    - url: slides/Lecture_09_2020.pptx
+      text: Slides (ppt)
+    - url: slides/Lecture_09_2020.pdf
+      text: Slides (pdf)
   papers:
     - authors: Koponen et al.
       url: papers/network-virtualization-koponen-nsdi14.pdf
@@ -153,6 +158,11 @@
 - date: 5/7/2020
   title: Buffer Sizing
   speakers: Nick
+  slides:
+    - url: slides/Lecture_10_2020.pptx
+      text: Slides (ppt)
+    - url: slides/Lecture_10_2020.pdf
+      text: Slides (pdf)
   papers:
     - authors: G. Appenzeller et al.
       url: papers/SizingRouterBuffersAppenzeller.pdf
