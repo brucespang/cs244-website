@@ -179,6 +179,7 @@
 - date: 5/12/2020
   title: Security
   speakers: Zakir Durumeric
+  slides: slides/Lecture_11_2020.pdf
   papers:
     - authors: Nick Sullivan
       url: https://blog.cloudflare.com/rfc-8446-aka-tls-1-3/
