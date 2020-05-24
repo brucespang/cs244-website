@@ -236,7 +236,12 @@
 - date: 5/28/2020
   title: Wireless II
   speakers: Sachin
-  papers: TBA
+  papers:
+    - authors: S. Hong, J. Mehlman, S. Katti
+      url: https://web.stanford.edu/~skatti/pubs/sigcomm12-picasso.pdf
+      title: "Picasso: Flexible RF and Spectrum Slicing"
+      venue: SIGCOMM 2012
+      optional: false
   due:
     
 - date: 6/2/2020
