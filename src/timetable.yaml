@@ -1,4 +1,5 @@
-- date: 4/7/2020
+# Lecture 1
+- date: 3/30/2021
   title: Introduction
   speakers: Sachin and Nick
   slides: slides/CS244 Lecture_01_2020.pdf
@@ -8,8 +9,9 @@
       url: papers/HowtoReadPaper.pdf
       optional: true
   due:
-    
-- date: 4/9/2020
+
+# Lecture 2
+- date: 4/1/2021
   title: Architecture and Principles
   speakers: Sachin
   slides: slides/Lecture_02_2020.pdf
@@ -30,9 +32,10 @@
       venue: IEEE Trans. Communications, 1964
       optional: true
   due:
-    - <a href="https://docs.google.com/document/d/1vYp_pjUhnYvBnKkvGeUV7yh6g3UndBrVRNcMLRtMEw4/edit?usp=sharing">Assignment 1</a> released, due Monday, April 27 at 5pm
-    
-- date: 4/14/2020
+    - <a href="https://docs.google.com/document/d/1vYp_pjUhnYvBnKkvGeUV7yh6g3UndBrVRNcMLRtMEw4/edit?usp=sharing">Assignment 1</a> released, due Sunday, April 11 at 11:59pm
+
+# Lecture 3
+- date: 4/6/2021
   title: Architecture and Principles
   speakers: Sachin
   slides: slides/Lecture_03_2020.pdf
@@ -44,8 +47,8 @@
       optional: false
   due:
 
-    
-- date: 4/16/2020
+# Lecture 4
+- date: 4/8/2021
   title: Congestion Control
   speakers: Nick
   slides: slides/Lecture_04_2020.pdf
@@ -61,8 +64,10 @@
       venue: SIGCOMM CCR 2007
       optional: true
   due:
+    - <a href="https://docs.google.com/document/d/1vYp_pjUhnYvBnKkvGeUV7yh6g3UndBrVRNcMLRtMEw4/edit?usp=sharing">Assignment 1</a> due next Sunday, April 11 at 11:59pm
 
-- date: 4/21/2020
+# Lecture 5
+- date: 4/13/2021
   title: Congestion Control II
   speakers: Keith Winstein
   slides: slides/Lecture_05_2020.pdf
@@ -78,8 +83,10 @@
       venue: ACM HotNets 2017
       optional: false
   due:
+    - <a href="https://docs.google.com/document/d/1vYp_pjUhnYvBnKkvGeUV7yh6g3UndBrVRNcMLRtMEw4/edit?usp=sharing">Assignment 2</a> released, due Thursday, April 22nd at 11:59pm
 
-- date: 4/23/2020
+# Lecture 6
+- date: 4/15/2021
   title: Switching
   speakers: Nick
   slides:
@@ -94,9 +101,9 @@
       venue: ACM Trans. Computer Systems, 1993
       optional: false
   due:
-    - <a href="https://docs.google.com/document/d/1vYp_pjUhnYvBnKkvGeUV7yh6g3UndBrVRNcMLRtMEw4/edit?usp=sharing">Assignment 1</a> due next Monday, April 27 at 5pm
 
-- date: 4/28/2020
+# Lecture 7
+- date: 4/20/2021
   title: Programmable Forwarding
   speakers: Nick
   slides:
@@ -111,8 +118,10 @@
       venue: SIGCOMM 2013
       optional: false
   due:
+    - <a href="https://docs.google.com/document/d/1vYp_pjUhnYvBnKkvGeUV7yh6g3UndBrVRNcMLRtMEw4/edit?usp=sharing">Assignment 2</a> due next Thursday, April 22nd at 11:59pm
 
-- date: 4/30/2020
+# Lecture 8
+- date: 4/22/2021
   title: SDN
   speakers: Nick
   slides:
@@ -131,12 +140,12 @@
       title: "Ethane: Taking Control of the Enterprise"
       venue: SIGCOMM 2007
       optional: false
-  due:    
-    - <a href="https://docs.google.com/document/d/1OzsZSJRvYtyYPAzdgqpE9O6DNGyubywVW8mJuvaJJ6I/edit?usp=sharing">Final project proposal</a> due next Monday, May 4th at 11:59pm
+  due:
 
-- date: 5/5/2020
-  title: SDN II
-  speakers: Nick
+# Lecture 9
+- date: 4/27/2021
+  title: Network Verification
+  speakers: Nate Foster
   slides:
     - url: slides/Lecture_09_2020.pptx
       text: Slides (ppt)
@@ -154,10 +163,12 @@
       venue: CCR 2019
       optional: true
   due:
+    - <a href="https://docs.google.com/document/d/1OzsZSJRvYtyYPAzdgqpE9O6DNGyubywVW8mJuvaJJ6I/edit?usp=sharing">Final project proposal</a> due next Thursday, April 29th at 11:59pm
 
-- date: 5/7/2020
-  title: Buffer Sizing
-  speakers: Nick
+# Lecture 10
+- date: 4/29/2021
+  title: Service Mesh
+  speakers: TBD
   slides:
     - url: slides/Lecture_10_2020.pptx
       text: Slides (ppt)
@@ -176,7 +187,15 @@
       optional: false
   due:
 
-- date: 5/12/2020
+# Lecture 11
+- date: 5/4/2021
+  title: Midterm
+  speakers:
+  papers:
+  due:
+
+# Lecture 12
+- date: 5/6/2021
   title: Security
   speakers: Zakir Durumeric
   slides: slides/Lecture_11_2020.pdf
@@ -192,7 +211,21 @@
       optional: false
   due:
 
-- date: 5/14/2020
+# Lecture 13
+- date: 5/11/2021
+  title: Data centers
+  speakers: Amin Vahdat
+  papers:
+    - authors: Singh et al.
+      url: https://research.google/pubs/pub43837.pdf
+      title: "Jupiter Rising: A Decade of Clos Topologies and Centralized Control in Google's Datacenter Network"
+      venue: SIGCOMM 2015
+      optional: false
+  due:
+    - <a href="https://docs.google.com/document/d/1OzsZSJRvYtyYPAzdgqpE9O6DNGyubywVW8mJuvaJJ6I/edit?usp=sharing">Intermediate progress report</a> due next Thursday, May 13th at 11:59pm
+
+# Lecture 14
+- date: 5/13/2021
   title: Edge Networking
   speakers: Sachin
   papers:
@@ -203,27 +236,21 @@
       optional: false
   due:
 
-- date: 5/19/2020
-  title: Midterm
-  speakers:
+# Lecture 15
+- date: 5/18/2021
+  title: Video Communication
+  speakers: TBD
   papers:
-  due:
-    
-- date: 5/21/2020
-  title: Data centers
-  speakers: Arjun Singh
-  papers:
-    - authors: Singh et al.
-      url: https://research.google/pubs/pub43837.pdf
-      title: "Jupiter Rising: A Decade of Clos Topologies and Centralized Control in Google's Datacenter Network"
-      venue: SIGCOMM 2015
+    - authors: TY Huang, R. Johari, N. McKeown, M. Trunnell, M. Watson
+      url: papers/sigcomm2014-video.pdf
+      title: "A Buffer-Based Approach to Rate Adaptation: Evidence from a Large Video Streaming Service"
+      venue: SIGCOMM 2014
       optional: false
-  due:    
-    - <a href="https://docs.google.com/document/d/1OzsZSJRvYtyYPAzdgqpE9O6DNGyubywVW8mJuvaJJ6I/edit?usp=sharing">Intermediate progress report</a> due tomorrow Friday, May 22nd at 11:59pm
+  due:
 
-    
-- date: 5/26/2020
-  title: Wireless
+# Lecture 16
+- date: 5/20/2021
+  title: Wireless I
   speakers: Sachin
   papers:
     - authors: J. Bicket, D. Aguayo, S. Biswas, R. Morris
@@ -232,8 +259,9 @@
       venue: MobiCom 2005
       optional: false
   due:
-    
-- date: 5/28/2020
+
+# Lecture 17
+- date: 5/25/2021
   title: Wireless II
   speakers: Sachin
   papers:
@@ -243,10 +271,11 @@
       venue: SIGCOMM 2012
       optional: false
   due:
-    
-- date: 6/2/2020
-  title: ML for Networking
-  speakers: Mohammad Alizadeh
+
+# Lecture 18
+- date: 5/27/2021
+  title: Network Measurement
+  speakers: TBD
   papers:
     - authors: H. Mao, M. Schwarzkopf, S.B. Venkatakrishnan, Z. Meng, M. Alizadeh
       url: https://web.mit.edu/decima/content/sigcomm-2019.pdf
@@ -254,27 +283,18 @@
       venue: SIGCOMM 2019
       optional: false
   due:
-    
-- date: 6/4/2020
-  title: Video Streaming
-  speakers: TY Huang
-  papers:
-    - authors: TY Huang, R. Johari, N. McKeown, M. Trunnell, M. Watson
-      url: papers/sigcomm2014-video.pdf
-      title: "A Buffer-Based Approach to Rate Adaptation: Evidence from a Large Video Streaming Service"
-      venue: SIGCOMM 2014
-      optional: false
-  due:
-    
-- date: 6/9/2020
+    - <a href="https://docs.google.com/document/d/1OzsZSJRvYtyYPAzdgqpE9O6DNGyubywVW8mJuvaJJ6I/edit?usp=sharing">Final report</a> due next Thursday at 11:59pm
+
+# Lecture 19
+- date: 6/1/2021
   title: Final Project Presentations
   speakers: You!
   papers:
   due:
-    
-- date: 6/11/2020
-  title: Final reports due (no class)
+
+# Lecture 20
+- date: 6/3/2021
+  title: Final reports due (No Class)
   speakers:
   papers:
-  due:    
-    - <a href="https://docs.google.com/document/d/1OzsZSJRvYtyYPAzdgqpE9O6DNGyubywVW8mJuvaJJ6I/edit?usp=sharing">Final report</a> due at 5pm
+  due:

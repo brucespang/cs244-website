@@ -1,31 +1,50 @@
-= CS244: Advanced Topics in Networking, Spring 2020
+= CS244: Advanced Topics in Networking, Spring 2021
 
-CS244 is a graduate course in computer networks. In this class we'll explore the principles and design decisions which underly the Internet. We'll explore the pros and cons of the current design, and give some thought to how we can make the Internet better in future.
+CS244 is a graduate course in computer networks. In this class we'll explore
+the principles and design decisions which underly the Internet. We'll explore
+the pros and cons of the current design, and give some thought to how we can
+make the Internet better in future.
 
 The goals for this class are:
 
-- To become familiar with the state of the art in networking research: network architecture, protocols and systems.
-- To gain some practice in reading research papers and critically understanding the research of others.
-- To gain experience with network programming using state-of-the-art research platforms.
+- To become familiar with the state of the art in networking research:
+network architecture, protocols and systems.
+- To gain some practice in reading research papers and critically understanding
+the research of others.
+- To gain experience with network programming using state-of-the-art research
+platforms.
 
 = Course Information
 
-*Professors:* [https://web.stanford.edu/~skatti/ *Sachin Katti*] and [http://yuba.stanford.edu/~nickm/ *Nick McKeown*]
+*Professors:* [https://web.stanford.edu/~skatti/ *Sachin Katti*] and
+[http://yuba.stanford.edu/~nickm/ *Nick McKeown*]
 
-*TA:* [https://brucespang.com Bruce Spang]
+*TA:* [https://web.stanford.edu/~sarslan/ Serhat Arslan] and
+[https://dblp.org/pid/183/5935.html Jenya Pergament]
 
-*Lectures:* Tue, Thu 9:00AM - 10:20AM on Zoom (link to the Zoom is on [https://canvas.stanford.edu/courses/116878 Canvas])
+*Lectures:* Tue, Thu 8:30AM - 9:50AM on Zoom (link to the Zoom is on
+[https://canvas.stanford.edu/courses/116878 Canvas])
 
-*Office Hours:* (links to office hour Zooms are on [https://canvas.stanford.edu/courses/116878 Canvas])
+*Office Hours:* (links to office hour Zooms are on
+[https://canvas.stanford.edu/courses/116878 Canvas])
 - Sachin: Fri. 2-3pm
 - Nick: Weds. 10-11am
-- Bruce: Thurs. 1-2pm and by appointment
+- Serhat: Thurs. 1-2pm and by appointment
+- Jenya:
 
-*Communication:* We use [http://piazza.com/stanford/spring2020/cs244/home Piazza] for discussion.
+*Communication:* We use [http://piazza.com/stanford/spring2020/cs244/home Piazza]
+for discussion.
 
-*Assignments:* All course assignments should be submitted via [https://canvas.stanford.edu/courses/116878 Canvas].
+*Assignments:* All course assignments should be submitted via
+[https://canvas.stanford.edu/courses/116878 Canvas].
 
-*Prerequisites:* This course assumes a basic understanding of topics in networking, such as packet-switching, routing, socket programming, and congestion control. It is also helpful to know how to program in Python. We suggest taking [http://cs144.stanford.edu/ CS 144], EE 284, or equivalent. For a refresher, you could look at the textbook "Computer Networking: A Top-Down Approach" by J. Kurose and K. Ross or "Computer Networks: A Systems Approach" by L. Peterson and B. Davie.
+*Prerequisites:* This course assumes a basic understanding of topics in
+networking, such as packet-switching, routing, socket programming, and
+congestion control. It is also helpful to know how to program in Python. We
+suggest taking [http://cs144.stanford.edu/ CS 144], EE 284, or equivalent.
+For a refresher, you could look at the textbook "Computer Networking: A
+Top-Down Approach" by J. Kurose and K. Ross or "Computer Networks: A Systems
+Approach" by L. Peterson and B. Davie.
 
 = Schedule and Papers
 
@@ -35,40 +54,81 @@ The goals for this class are:
 
 The class consists of two main activities:
 
-*Papers and discussions:* We will read 1-2 papers for each class (i.e. 2-4 papers per week), and discuss them in class. You will likely need to spend a few hours reading each paper and making notes, to prepare you to discuss them in class. This class only works if you come prepared to discuss the papers in detail, which is why 15\% of your grade is for in-class participation. Do not take this course unless you are willing and able to do a lot of reading.
+*Papers and discussions:* We will read 1-2 papers for each class (i.e. 2-4
+papers per week), and discuss them in class. You will likely need to spend a
+few hours reading each paper and making notes, to prepare you to discuss them
+in class. This class only works if you come prepared to discuss the papers in
+detail, which is why 15\% of your grade is for in-class participation. Do not
+take this course unless you are willing and able to do a lot of reading.
 
-*Reproducing research:* You will do two projects which aim to reproduce a networking result: a guided assignment and an open-ended project. We've found that reproducing research results is a good way to get started doing networking research and contributing to the networking community.
+*Reproducing research:* You will do two projects which aim to reproduce a
+networking result: a guided assignment and an open-ended project. We've found
+that reproducing research results is a good way to get started doing networking
+research and contributing to the networking community.
 
-You can see example reproductions on the [https://reproducingnetworkresearch.wordpress.com/ Reproducing Network Research blog], or read more about learning networking by reproducing research in our [papers/learning-networking-research-by-reproducing.pdf paper].
+You can see example reproductions on the
+[https://reproducingnetworkresearch.wordpress.com/ Reproducing Network Research blog],
+or read more about learning networking by reproducing research in our
+[papers/learning-networking-research-by-reproducing.pdf paper].
 
 == Grading Policy
 
-In keeping with Stanford's policy, we will be grading on a CR/NC basis for Spring 2020. If you would like to use the class as part of a breadth requirement, please email the course staff so we can explain how it will work.
+In keeping with Stanford's policy, we will be grading on a CR/NC basis for
+Spring 2020. If you would like to use the class as part of a breadth
+requirement, please email the course staff so we can explain how it will work.
 
 == Critiques
 
-Before each class, you must submit a short critique of the required readings on [https://canvas.stanford.edu/courses/116878 Canvas] (under the Quizzes tab). *Critiques will be accepted until 11:59pm* the night before class. Canvas will allow submissions a few minutes late, and these may or may not be graded.
+Before each class, you must submit a short critique of the required readings on
+[https://canvas.stanford.edu/courses/116878 Canvas] (under the Quizzes tab).
+*Critiques will be accepted until 11:59pm* the night before class. Canvas will
+allow submissions a few minutes late, and these may or may not be graded.
 
-There are prompts on Canvas to help frame your critique. As you read the paper, keep in mind that for the most part, these are classic, high-impact papers in networking. It's always possible to find flaws in a paper, and you will notice flaws in these papers, but it will be more interesting and rewarding to focus on their strengths.
+There are prompts on Canvas to help frame your critique. As you read the paper,
+keep in mind that for the most part, these are classic, high-impact papers in
+networking. It's always possible to find flaws in a paper, and you will notice
+flaws in these papers, but it will be more interesting and rewarding to focus
+on their strengths.
 
 == In-class Participation
 
-Is class participation based solely on attendance? No. Attendance is a necessary but not sufficient condition for good class participation. We will not take official roll during lecture, but because we make the effort to know everyone in the class we will notice if a student is frequently absent. Beyond attendance, we evaluate class participation by observing how prepared students are to discuss the covered paper when they come to class.
+Is class participation based solely on attendance? No. Attendance is a
+necessary but not sufficient condition for good class participation. We will
+not take official roll during lecture, but because we make the effort to know
+everyone in the class we will notice if a student is frequently absent. Beyond
+attendance, we evaluate class participation by observing how prepared students
+are to discuss the covered paper when they come to class.
 
-We understand that this will be an unusual and stressful quarter outside of class. You may be sick, have to take some time to deal with family or personal matters, may have internet problems, and so on. We will excuse absences, but please let us know about them in advance or as soon possible afterwards. If there's anything we can do to help you or accomodate your learning, please let us know!
+We understand that this will be an unusual and stressful quarter outside of
+class. You may be sick, have to take some time to deal with family or personal
+matters, may have internet problems, and so on. We will excuse absences, but
+please let us know about them in advance or as soon possible afterwards. If
+there's anything we can do to help you or accomodate your learning, please let
+us know!
 
 == Programming Assignments
 
 We will have two programming assignments throughout the quarter.
 
-- *Programming Assignment 1:* [https://docs.google.com/document/d/1vYp_pjUhnYvBnKkvGeUV7yh6g3UndBrVRNcMLRtMEw4/edit?usp=sharing Jellyfish Reproduction]
-- *Final Project:* [https://docs.google.com/document/d/1OzsZSJRvYtyYPAzdgqpE9O6DNGyubywVW8mJuvaJJ6I/edit?usp=sharing Reproducing research]. You and a partner will reproduce the main result from a recent networking paper. We will be posting your reproductions on the [https://reproducingnetworkresearch.wordpress.com/ Reproducing Network Research blog].
+- *Programming Assignment 1:*
+[https://docs.google.com/document/d/1vYp_pjUhnYvBnKkvGeUV7yh6g3UndBrVRNcMLRtMEw4/edit?usp=sharing Jellyfish Reproduction]
+- *Final Project:*
+[https://docs.google.com/document/d/1OzsZSJRvYtyYPAzdgqpE9O6DNGyubywVW8mJuvaJJ6I/edit?usp=sharing Reproducing research].
+You and a partner will reproduce the main result from a recent networking
+paper. We will be posting your reproductions on the
+[https://reproducingnetworkresearch.wordpress.com/ Reproducing Network Research blog].
 
-You have *one free 24 hour extension* for either the programming assignment or final project. You must email the TA before the deadline. After this, if you hand in an assignment 0-24 hours late, you will lose 25\% of the grade. 24-48 hours late and you will lose 50\% of the grade. 48-72 hours late you will lose 75\% of the grade. After 72 hours you will receive a zero.
+You have *one free 24 hour extension* for either the programming assignment or
+final project. You must email the TA before the deadline. After this, if you
+hand in an assignment 0-24 hours late, you will lose 25\% of the grade. 24-48
+hours late and you will lose 50\% of the grade. 48-72 hours late you will lose
+75\% of the grade. After 72 hours you will receive a zero.
 
-If you have extenuating circumstances that result in an assignment being late, please let us know about them as soon as possible.
+If you have extenuating circumstances that result in an assignment being late,
+please let us know about them as soon as possible.
 
 == Exam
 
-There will be one midterm exam. We will release a practice exam later in the quarter. The exam will test your understanding of papers and topics covered so far in the class.
-
+There will be one midterm exam. We will release a practice exam later in the
+quarter. The exam will test your understanding of papers and topics covered so
+far in the class.
