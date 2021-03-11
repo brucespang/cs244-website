@@ -292,13 +292,13 @@
 # Lecture 18
 - date: 5/27/2021
   title: Network Measurement
-  speakers: TBD
+  speakers: Jennifer Rexford
   papers:
-    # - authors: H. Mao, M. Schwarzkopf, S.B. Venkatakrishnan, Z. Meng, M. Alizadeh
-    #   url: https://web.mit.edu/decima/content/sigcomm-2019.pdf
-    #   title: Learning Scheduling Algorithms for Data Processing Clusters
-    #   venue: SIGCOMM 2019
-    #   optional: false
+    - authors: A. Gupta, R. Harrison, M. Canini, N. Feamster, J. Rexford, W. Willinger
+      url: https://web.mit.edu/decima/content/sigcomm-2019.pdf
+      title: Sonata query-driven streaming network telemetry
+      venue: SIGCOMM 2018
+      optional: false
   due:
     - <a href="https://docs.google.com/document/d/1OzsZSJRvYtyYPAzdgqpE9O6DNGyubywVW8mJuvaJJ6I/edit?usp=sharing">Final report</a> due next Thursday at 11:59pm
 
