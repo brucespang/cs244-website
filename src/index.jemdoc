@@ -23,20 +23,21 @@ platforms.
 [https://dblp.org/pid/183/5935.html Jenya Pergament]
 
 *Lectures:* Tue, Thu 8:30AM - 9:50AM on Zoom (link to the Zoom is on
-[https://canvas.stanford.edu/courses/116878 Canvas])
+[https://canvas.stanford.edu/courses/135565 Canvas])
 
 *Office Hours:* (links to office hour Zooms are on
-[https://canvas.stanford.edu/courses/116878 Canvas])
-- Sachin: Fri. 2-3pm
-- Nick: Weds. 10-11am
-- Serhat: Thurs. 1-2pm and by appointment
-- Jenya:
+[https://canvas.stanford.edu/courses/135565 Canvas])
+- Sachin: Friday 11:00AM - 12:00PM
+- Nick: Tuesday 10:00AM - 11:00AM
+- Serhat: Wednesday 10:00AM - 11:00AM and by appointment
+- Jenya: Monday 2:00PM - 3:00PM and by appointment
 
-*Communication:* We use [http://piazza.com/stanford/spring2020/cs244/home Piazza]
+*Communication:* We use [http://piazza.com/stanford/spring2021/cs244/home Piazza]
 for discussion.
 
-*Assignments:* All course assignments should be submitted via
-[https://canvas.stanford.edu/courses/116878 Canvas].
+*Assignments:* All course assignments will be published on Canvas and follow
+instructions on documents for submissions. Make sure you are enrolled into our
+Gradescope page. (Enrollment Code is on Canvas)
 
 *Prerequisites:* This course assumes a basic understanding of topics in
 networking, such as packet-switching, routing, socket programming, and
@@ -73,14 +74,16 @@ or read more about learning networking by reproducing research in our
 
 == Grading Policy
 
-In keeping with Stanford's policy, we will be grading on a CR/NC basis for
-Spring 2020. If you would like to use the class as part of a breadth
-requirement, please email the course staff so we can explain how it will work.
+- 20% Paper Critiques
+- 10% Programming Assignment 1
+- 10% Programming Assignment 2
+- 20% Midterm
+- 40% Final Project
 
 == Critiques
 
 Before each class, you must submit a short critique of the required readings on
-[https://canvas.stanford.edu/courses/116878 Canvas] (under the Quizzes tab).
+[https://canvas.stanford.edu/courses/135565 Canvas] (under the Quizzes tab).
 *Critiques will be accepted until 11:59pm* the night before class. Canvas will
 allow submissions a few minutes late, and these may or may not be graded.
 
@@ -99,8 +102,7 @@ everyone in the class we will notice if a student is frequently absent. Beyond
 attendance, we evaluate class participation by observing how prepared students
 are to discuss the covered paper when they come to class.
 
-We understand that this will be an unusual and stressful quarter outside of
-class. You may be sick, have to take some time to deal with family or personal
+You may be sick, have to take some time to deal with family or personal
 matters, may have internet problems, and so on. We will excuse absences, but
 please let us know about them in advance or as soon possible afterwards. If
 there's anything we can do to help you or accomodate your learning, please let
@@ -108,10 +110,11 @@ us know!
 
 == Programming Assignments
 
-We will have two programming assignments throughout the quarter.
+We will have two programming assignments throughout the quarter. See
+[https://canvas.stanford.edu/courses/135565 Canvas] for details about them.
 
-- *Programming Assignment 1:*
-[https://docs.google.com/document/d/1vYp_pjUhnYvBnKkvGeUV7yh6g3UndBrVRNcMLRtMEw4/edit?usp=sharing Jellyfish Reproduction]
+- *Programming Assignment 1:* Bufferbloat on Mininet
+- *Programming Assignment 2:* Bufferbloat on NS-3
 - *Final Project:*
 [https://docs.google.com/document/d/1OzsZSJRvYtyYPAzdgqpE9O6DNGyubywVW8mJuvaJJ6I/edit?usp=sharing Reproducing research].
 You and a partner will reproduce the main result from a recent networking
